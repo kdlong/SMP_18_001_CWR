@@ -22,22 +22,9 @@ A few general comments:
    reference, which I do not see right now (and which is much more important to the
    stakeholders tan anything else)
 
-the fact that RIVET is used is relevant in the interpretation of the results in the sense
-that it defines a common algorithm, with choices made in how dressed leptons, jets etc
-are defined. We intend only to emphasize this, though we agree that the wording was combuersome.
-It has been reformulated, and the reference has been moved into the main body of the text.
-
-TODO: Reword text to make Rivet mentioning more natural. 
-TODO: Add RIVET Citation in main body of text.
-
 - what did we do with taus in this analysis? If they the electrons and  muons from the
    decaying taus are within the acceptance, are these considered signal or background?
    Be specific from the start please.
-
-They are not explicitly vetoed, though they are not included in the fiducial cross 
-section. Added clarification in text.
-
-TODO: Clarify treatment of taus
 
 Details
 - line 4 Sloppy: Higgs mechanism -&gt; BEH or Brout-Englert-Higgs mechanism
