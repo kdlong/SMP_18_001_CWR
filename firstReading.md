@@ -1,4 +1,11 @@
-Comments from Albert de Roeck
++ [Comments from Albert de Roeck](#comments-from-albert-de-roeck)
++ [Comments from University of Virginia IR](#comments-from-university-of-virginia-ir)
+  + [Type A](#type-a)
++ [Comments from Greg Landsberg](#comments-from-greg-landsberg)
+
+# Comments from Albert de Roeck
+-----------------------------------------------------------------------------
+
 
 Thanks for your analysis and paper on the measurements of the WZ production
 and search for new physics
@@ -196,16 +203,14 @@ Hmm, ok, I need to read about this anyway.
 
 **TODO: Yes good idea**
 
-
----++ Comments from University of Virginia IR
-
-%TWISTY{mode="div" showlink="Show comments and responses" hidelink="hide" showimgleft="%ICONURLPATH{toggleopen-small}%" hideimgleft="%ICONURLPATH{toggleclose-small}%" }%
+# Comments from University of Virginia IR
+------------------------------------------------------------------------------------------
 
 This paper is well written and addresses several topics including the production cross section for pp production of WZ at s =13 TeV and a further attempt to separate this production in into QCD and electroweak components.  The authors also attempt to determine how much of the electroweak cross section arises for BSM effects due to deviation of EW cross section from the SM expectation due to anomalous quartic gauge coupling or processes in which charged Higgs are produced and decay into WZ.
 
 The following comments are suggestions to make the paper more readable.
 
-A type comments
+## Type A 
 
 Figure 6 caption:  The arraignment of the figures are side by side so in referring to them in the caption, the language shodulbe changed from top -&gt; left and bottom -&gt; right.
 
@@ -237,11 +242,8 @@ Different choice would make what this component is clearer.  As is
 
 It is obscured by the cross hatching of the statistical + systematic errors.
 
-<br />%ENDTWISTY%
-
----++ Comments from Greg Landsberg
-
-%TWISTY{mode="div" showlink="Show comments and responses" hidelink="hide" showimgleft="%ICONURLPATH{toggleopen-small}%" hideimgleft="%ICONURLPATH{toggleclose-small}%" }%
+# Comments from Greg Landsberg
+---------------------------------------------------------------------
 
 Congratulations on a new measurement of the EW WZ production and a well-written paper! Please, find my detailed comments below, arranged in the physics and style categories. My main concern is that while we may be able to publish this before ATLAS, their analysis appears to be much superior to ours, so the impact of the measurement part of this paper is going to be rather limited, unless some obvious possible improvements to the analysis are considered. 
 
@@ -562,11 +564,9 @@ Ref. [56]: typeset the Erratum the same way you do the main references: [Erratum
 
 Refs. [54,55,59,60]: these are identical pairs of references; please replace Refs. [59.60] on L390 with [54,55].
 
-<br/>%ENDTWISTY%
 
 ---++ Comments from Ohio State University IR
 
-%TWISTY{mode="div" showlink="Show comments and responses" hidelink="hide" showimgleft="%ICONURLPATH{toggleopen-small}%" hideimgleft="%ICONURLPATH{toggleclose-small}%" }%
 
 This paper presents the first measurement of WZ electroweak vector boson scattering at 13 TeV. The cross section is sensitive to BSM physics and thus is certainly topical, although the data agrees well with the standard model. The text is complete and well written. The group is to be congratulated on completing in a timely manner this important result. It is important for this paper to be published without further delay. However, we do have a few specific comments:
 
@@ -626,12 +626,10 @@ L365+: Line numbers missing.
 
 L426: “SM” needs to be redefined in the Summary section.
 
-<br/>%ENDTWISTY%
 
  
 ---++ Comments from Kyungpook National University IR
 
-%TWISTY{mode="div" showlink="Show comments and responses" hidelink="hide" showimgleft="%ICONURLPATH{toggleopen-small}%" hideimgleft="%ICONURLPATH{toggleclose-small}%" }%
 
 
  The preprint is generally well-written and so do have minor things as below.  Please refer.
@@ -782,11 +780,8 @@ There is a probability that a fraction of events since late 2016 data have been 
 
 Did you take a look at the prefiring effect on forward jets with 2.25<|eta|<3.0 in 2016H on your analysis results?
 
-<br/>%ENDTWISTY%
 
 ---++ Comments from University of Pavia IR
-
-%TWISTY{mode="div" showlink="Show comments and responses" hidelink="hide" showimgleft="%ICONURLPATH{toggleopen-small}%" hideimgleft="%ICONURLPATH{toggleclose-small}%" }%
 
 We have only minor suggestions:
 
@@ -800,12 +795,8 @@ line 284 : it could be better , if possible, to insert a ref. on RIVET ?
 
 Summary : Results are very nice so it may be worth to spent some more writing on previous analysis comparison
 
-<br/>%ENDTWISTY%
-
 
 ---++ Comments from DESY IR
-
-%TWISTY{mode="div" showlink="Show comments and responses" hidelink="hide" showimgleft="%ICONURLPATH{toggleopen-small}%" hideimgleft="%ICONURLPATH{toggleclose-small}%" }%
 
 General comments:
 -----------------
@@ -1230,6 +1221,3 @@ Figure 5:
 Figure 6: The caption refers to (top) and (bottom) figures when the two plots are actualy side-by-side.
 
 Figure 6: exclusion -> upper
-
-<br/>%ENDTWISTY%
-
