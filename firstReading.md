@@ -36,57 +36,109 @@ section. Added clarification in text.
 
 **TODO: Clarify treatment of taus**
 
-
 Details
 - line 4 Sloppy: Higgs mechanism -&gt; BEH or Brout-Englert-Higgs mechanism
 
+**TODO: Simple text editing**
+
 - line 84: "...initial state bs not included": is that an issue for the analysis?
    How does it affective analysis, if at all?
+
+That they are not included as signal is important, as this essentially defines the tZq 
+process.
 
 - line 91: Do we depend on the merging scale? We should not. Was this checked and or
     a systematics for that included? I did not see that later.
     (but I expect almost no effect and would not even give the 27 GeV here)
 
+The merging scale was studied, and is subleading with respect to MC uncertainties 
+explicitly considered. We include the scale based on previous suggestions to have it 
+there.
+
+**TODO: Personally I don't care at all...**
+
 - line 92: This looks a bit strange: comparing a NLO with a LO prediction to assess
     the modelling uncertainty. What did you check and what did you conclude?
     I assume this connected with the discussion at line 276?
 
+It does look a little strange, and we acknowledge that it requires a bit more 
+digging in to see the point fully. 
+The NLO calculation is NLO for the WZ+1j contribution, whereas the LO has tree-level
+contributions at WZ+2 partons and WZ+3 partons matrix elements. Thus the comparison
+is essentially of tree-level WZ+2j + parton shower and WZ+2j and WZ+3j matrix elements
+merged at LO. Of course the ideal comparison would be having NLO WZ+2j, but this 
+was not technically feasible. The goal in this comparison is to assess the difference
+in the two-jet kinematics from the different shower merging and matching schemes.
+Our conclusion is that the argreement is largely contained by the scale+PDF uncertainties,
+and we assign an additional modeling uncertainty based on the differences seen. We 
+want to avoid confusing the discussion of the two with unecessary complications at this 
+point, so we present the comparison itself without an excess of technical details.
+
+**TODO: Decide if this needs more information**
+
 - line 98 "with THE dynamic"
+
+**TODO: Fix**
 
 - line 103 "...for identical configurations" What do you mean here? Event topologies?
     Please say exactly what is meant.
 
+**TODO: Clarify that we mean identical configuration of input parameters.**
+
 - line 104: I recommend to start this paragraph with a list the main backgrounds
 
+**TODO: Do this**
+
 - line 110-111 "k-Factors" -&gt; K-factors" as most generally used.
+
+**TODO: Fix**
 
 - line 129: "27 pile -up interactions". Possibly the correct number but in recent
     CWR papers I have seen everything between 20 to 27 pile-up numbers quoted  for the
     same data set. I recommend to put the '27' only if this is the agreed number upon
     for all our papers on 2016 data set analyses.
 
+**TODO: I have the same question...**
+
 - section 4: We should also say very briefly how we reconstruct neutral hadrons and
    photons with the PF algorithm as we eg use these in the isolation requirements.
+
+**TODO: Change, I guess**
+REFORMAT
 
 - line 178: These are very precise numbers for the isolation selection on the
     leptons (3 significant digits). This begs the question on how these cuts
     have been tuned or optimised... Information to be added.
 
+**TODO: Change, I guess**
+REFORMAT
+
 - line 184: So I understand here that we did not exclude the transition region
    between barrel and endcap in the ECAL, correct? Do we control the data/MC difference of the
    efficiency there well enough?
 
+**TODO: Change, I guess**
+REFORMULATE
+
 - line 209: affect -&gt; effect
 
+**TODO: Fix**
+
 - line 217 -2.5   The 'minus' is a bit poor. Maybe put &minus; or give |eta|&lt; 2.5
+
+**TODO: Fix**
 
 - line 248: See line 135:  in this paper we define and use pTMiss and NOT ETmiss!
     Also this has become the common practice in all our papers.
     However as of here we start using ETMiss in the text. Please change all these to
     pTMiss.
 
+**TODO: Change, oops**
+
 - line 267-269. Not easy to understand for the reader as the introduction to 2D
    comes only later in the paper.
+
+REFORMULATE
 
 - line 276: FxFx merging is typically used for NLO samples (dono if it
    works also consistently with LO generations), rather than for LO samples
@@ -94,23 +146,40 @@ Details
    Just to make sure we do not something illegal that we could get criticised for
    easily..
 
+Comment: See previous response above. Rewrote in a hopefully more clear fashion.
+
+REFORMULATE
+
 - line 279: "generally seen to be within..." Is that an observation you made with
    studies in this analysis? Then I would rather say "generally found to be within..."   
+
+**TODO: Fix**
 
 - line 282: so what do we use this sample for? Do we find that the POWHEG agrees with the
     MC studies that we use? We should say something here.
 
+**TODO: Add that we see agreement.**
+
 - line 286: "for fixed and dynamic scale". Say here what scale you mean.
+
+**TODO: Ok.**
 
 - line 294: This statement may well be right but as a reader (or referee) I would
     wonder on what this assessment is based, and if these contributions would not
     risk to be larger. Please elaborate or say where you got that information
     (you can blame it on a theorist if you want.)
 
+**TODO: Could now reference preliminary studies**
+
 - line 330: what is the value the modifier that comes out of the fit?
      We should give that information as well..
 
+It can be easily gleaned from the comparison value given. Do we really want to include this?
+
 - line 338 : interference is negligible. How small is it (eg in % contribution)?
+
+Less than 1% of the total cross section.
+**TODO: Add this, I guess?**
 
 - line 366-369: what is the conclusion on this result? Consistent with SM expectation..?
      We should at least say something
@@ -119,10 +188,14 @@ Details
 
 - line 407: What is meant precisely here? Contribution to what? too compact as is now...
 
+Hmm, ok, I need to read about this anyway.
+**TODO: Research this model, and make this a little more clear**
+
 - line 433: We could give a few more details/numbers here on previous results
    to substantiate this concluding  comment
 
-<br />%ENDTWISTY%
+**TODO: Yes good idea**
+
 
 ---++ Comments from University of Virginia IR
 
