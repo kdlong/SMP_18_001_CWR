@@ -24,7 +24,7 @@ that it defines a common algorithm, with choices made in how dressed leptons, je
 are defined. We intend only to emphasize this, though we agree that the wording was combuersome.
 It has been reformulated, and the reference has been moved into the main body of the text.
 
-**TODO: Reword text to make Rivet mentioning more natural. **
+**TODO: Reword text to make Rivet mentioning more natural.**
 **TODO: Add RIVET Citation in main body of text.**
 
 - what did we do with taus in this analysis? If they the electrons and muons from the
