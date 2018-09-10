@@ -2,6 +2,14 @@
 + [Comments from University of Virginia IR](#comments-from-university-of-virginia-ir)
   + [Type A](#type-a)
 + [Comments from Greg Landsberg](#comments-from-greg-landsberg)
++ [Comments from Ohio State University IR](#comments-from-ohio-state-university-ir)
+  + [Type B](#type-b)
+  + [Type A](#type-a)
++ [ Comments from Kyungpook National University IR](#comments-kyungpook-national-university-ir)
++ [ Comments from University of Pavia IR](#comments-from-university-of-pavia-ir)
++ [ Comments from DESY IR](#comments-from-desy-ir)
+  + [Type B](#type-b)
+  + [Type A](#type-a)
 
 # Comments from Albert de Roeck
 -----------------------------------------------------------------------------
@@ -565,14 +573,12 @@ Ref. [56]: typeset the Erratum the same way you do the main references: [Erratum
 Refs. [54,55,59,60]: these are identical pairs of references; please replace Refs. [59.60] on L390 with [54,55].
 
 
----++ Comments from Ohio State University IR
-
+# Comments from Ohio State University IR
 
 This paper presents the first measurement of WZ electroweak vector boson scattering at 13 TeV. The cross section is sensitive to BSM physics and thus is certainly topical, although the data agrees well with the standard model. The text is complete and well written. The group is to be congratulated on completing in a timely manner this important result. It is important for this paper to be published without further delay. However, we do have a few specific comments:
 
  
-
-Type B
+## Type B
 
 L13: aQCG is defined here and a reference is given for a search result, however there is no clear reference to a description on what aQCG actually is. Is this description contained in reference [6], or is there another reference needed here?
 
@@ -614,7 +620,7 @@ Figure 3: most of the error bars in the ratio are off-scale, and in some bins th
 
  
 
-Type A
+## Type A
 
 L33: Parallel construction — "or suggest" —> "or"; otherwise "or it could suggest", etc
 
@@ -628,7 +634,7 @@ L426: “SM” needs to be redefined in the Summary section.
 
 
  
----++ Comments from Kyungpook National University IR
+# Comments from Kyungpook National University IR
 
 
 
@@ -781,7 +787,7 @@ There is a probability that a fraction of events since late 2016 data have been 
 Did you take a look at the prefiring effect on forward jets with 2.25<|eta|<3.0 in 2016H on your analysis results?
 
 
----++ Comments from University of Pavia IR
+# Comments from University of Pavia IR
 
 We have only minor suggestions:
 
@@ -796,7 +802,7 @@ line 284 : it could be better , if possible, to insert a ref. on RIVET ?
 Summary : Results are very nice so it may be worth to spent some more writing on previous analysis comparison
 
 
----++ Comments from DESY IR
+# Comments from DESY IR
 
 General comments:
 -----------------
@@ -1182,8 +1188,8 @@ l.427: "extract the significance of EW WZ production" -> measure the signal stre
   Also quote the value actually measured here instead of only the significance
 
 
-TYPE A
--------
+## Type A
+
 l.5: 'to the Higgs' - should this still say 'Higgs boson'?
 
 l.16: 'These interactions include WZ quartic couplings, as shown in Fig. 1 (a)'
