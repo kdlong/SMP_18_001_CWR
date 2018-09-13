@@ -113,7 +113,7 @@ point, so we present the comparison itself without an excess of technical detail
     same data set. I recommend to put the '27' only if this is the agreed number upon
     for all our papers on 2016 data set analyses.
 
-**TODO: I have the same question...**
+**TODO: Other papers say 23. I've changed it. But any reference?**
 
 - section 4: We should also say very briefly how we reconstruct neutral hadrons and
    photons with the PF algorithm as we eg use these in the isolation requirements.
@@ -287,6 +287,8 @@ PHYSICS COMMENTS:
 
 - L3: add the second standard reference ["long" paper] to the CMS Higgs boson discovery.
 
+**ADDRESSED: Added**
+
 - L13: Ref. [6] is the CMS paper; you must've meant Ref. [4].
 
 **ADDRESSED: Fixed**
@@ -305,7 +307,11 @@ PHYSICS COMMENTS:
 
 - L85: as the name suggests; VBFNLO is an NLO, not LO generator: "... from the generator {\sc vbfnlo} v?.? [16] at next-to-leading order (NLO) ... [also add the VBFNLO version number].
 
+**RESPONSE: As with most NLO programs, VBFNLO also provides LO predictions. In fact, it is in general not an event generator, and only has this capability at LO. As we made comparisons using generated events, we generated them at LO. The text is therefore correct. The version number has been added.** 
+
 - L86: give the order of simulations with Sherpa: 18], at LO, and with fixed-order [note a hyphen!] calculations ... [Finally, give MoCaNLO+Recola version number here.]
+
+**ADDRESSED: Fixed**
 
 - LL89-90: the description is very confusing. By "up to three outgoing partons at Born level" do you mean "up to one additional parton" [as W and Z are two outgoing partons], or do you really mean up to three additional jets emitted in addition to two gluon jets? You really should be talking about "additional partons" compared to the Born-level diagram in Fig. 1 (b) to avoid confusion: "... simulated at LO with up to ? additional partons included in the matrix element calculations with ...".
 
@@ -316,6 +322,8 @@ PHYSICS COMMENTS:
 - L101: please explain what is meant by "events drawn from the interference term only". Most of the calculations become non-renormalizabel if a particular term in the amplitude is taken out, which means that numerically they give garbage. Only full set of amplitudes guarantees a numerically stable and finite answer. The only way to assess the effect of interference is really to take the full calculation with the interference and subtract from it the two processes generated separately. Is this what's being done? Please, expand on this point in the paper.
 
 - LL110,111: first of all drop "scaling" in both places, as "factor" implies "scaling"; second, per CMS Style, the correct usage is "K factor", so the two lines in question should say, respectively, "(K factor of 1.1)" and "(K factor of 1.7)".
+
+**ADDRESSED: Fixed**
 
 - L121: since a single version fo Sherpa is used, drop the version here.
 
