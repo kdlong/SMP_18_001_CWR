@@ -148,7 +148,7 @@ REFORMULATE
     However as of here we start using ETMiss in the text. Please change all these to
     pTMiss.
 
-**TODO: Change, oops**
+**ADDRESSED: Fixed**
 
 - line 267-269. Not easy to understand for the reader as the introduction to 2D
    comes only later in the paper.
@@ -226,28 +226,44 @@ B type comments
 
 L70 the event rate -&gt; first level event rate
 
+**TODO: Ok, change**
+
 L143-145  The description of the treatment of bremsstrahlung along the electron tract is too terse.  Either a reference to the treatment or more description of how the brem is treated would help.
+
+**TODO: Ok... Look at what other papers say**
 
 L170-179  The pileup is treated quite differently for electrons and muons in determining the isolation of the lepton.  For the reader a sentence or two about why this is the case would be useful.
 
+**TODO: Ok... Look at what other papers say**
+
 L208   Please add a sentence about what problem is generated in the theoretic calculation by collinear emission of same flavor opposite sign dileptons or a reference to a discussion of the problem.
+
+**ADDRESSED: Change "due to problems" to "to avoid divergences from"**
 
 L245 and 251  The tight to loose “transfer factors” that transfer background events into the signal region are quite mysterious.  Please add some information about what these are and how they are determined
 
 (even though the authors give a reference to the technique, the process is so minimally described it forces the reader to go to the reference).
 
+**TODO: Fair. Add a little bit I suppose**
+
 L257   Choose a different adjective than “fakeable”.  This is an unclear descriptor.
+
+**TODO: Hmm, ok**
 
 L269  2D discriminant is referenced here although it is not defined until line 354.
 
+**TODO: Good point**
+
 L278  The MLN merging is mentioned earlier with a reference but a FxFx merged sample is mentioned with no discussion of what this sample is.
+
+**TODO: Ok**
 
 L284  A short description of what is meant by the RIVET framework is needed event if a reference is given.
 
+**TODO: Ok**
+
 Figures 2 and 3  The electroweak components are not at all evident in the two figures partially because of the choice of indicator symbol.  A
-
 Different choice would make what this component is clearer.  As is
-
 It is obscured by the cross hatching of the statistical + systematic errors.
 
 # Comments from Greg Landsberg
@@ -263,17 +279,27 @@ PHYSICS COMMENTS:
 
 - General comment: nowhere in the paper I see an investigation of the ECAL prefiring effect on your trigger efficiency. Given the forward energetic jets used in the analysis, it may be significant (10\% or so), which may be one of the causes of a somewhat lower cross section you measure. Has this been looked for, and if so, why it is not addressed in the paper? If the effect hasn't been considered, it must be included before the analysis can be published.
 
+**TODO: Yes, we have to do this and then decide if we want to result to change. The expectation is of course that the expect sig. will decrease, but the observed will raise slightly.**
+
 - General comment: most of the papers we publish with the fiducial cross section measurements provide the unfolded measurements. Why is the unfolding not performed in this analysis? Granted, the effect of unfolding on the lepton is fairly small; on the other hand, your fiducial regions are rather complicated and include pmissT, pjT, and mj] selections, all of which are considerably affected by the JES/JER, particularly given that the jets are in the forward region where the corresponding uncertainty are relatively large. I believe the fiducial cross section measurements should be done with unfolded data. Note that the ATLAS result uses unfolded data, naturally.
+
+**RESPONSE: The fiducial cross sections reported are generator-level quantities, that is, they include acceptances and efficiencies. In that sense they ARE unfolded quantities. We chose not to produce unfolded distributions because the statistical power of the measurement makes splitting the distributions into bins impractical.**
 
 - L3: add the second standard reference ["long" paper] to the CMS Higgs boson discovery.
 
 - L13: Ref. [6] is the CMS paper; you must've meant Ref. [4].
 
+**ADDRESSED: Fixed**
+
 - L16: there is only one particular quartic coupling you really probe here, WWZZ; please say so explicitly.
+
+**TODO: Decide if we want to do this**
 
 - Figure 1: in the diagrams (a), (c), (d), you should explicitly put W± and Z along the two bosons emitted by the quarks. If you put W± on top, the lower outgoing quark should be the same as the corresponding incoming quark, but it must be changed to an antiquark q¯ in order to conserve electric charge. Since the two incoming quarks do not have to be of the same type, suggest labeling the upper two quarks as q' and q", while keeping the two at the bottom as q. The diagram (b) as shown, violates electric charge conservation; you should replace q¯ with q¯&#8242; and also mark the internal quark lines as q, q', q¯&#8242; (top to bottom).
 
 - LL26-31: this paragraph really breaks the flow of the text; suggest moving it after the one ending on L37.
+
+**TODO: This is ok with me**
 
 - LL34-36: We study ... in terms of the generalized framework of dimension-eight effective field theory (EFT) operators and charged Higgs bosons, as shown in Figs. 1 (c) and (d), and place limits on the corresponding couplings and production cross sections, respectively.
 
@@ -641,7 +667,7 @@ L426: “SM” needs to be redefined in the Summary section.
  The preprint is generally well-written and so do have minor things as below.  Please refer.
 
 
-*** Type A comments
+** Type A comments
 
  
 
@@ -651,7 +677,7 @@ L17 : Vector boson scattering processes form a distinct experimental signature
 
 -> VBS processes form a distinct experimental signature
 
- 
+**ADDRESSED: Fixed** 
 
 L34-36 : please rearrange the sentence according to the figures, i.e.,
 
@@ -695,7 +721,7 @@ Eq.3 : add a period
 
 L248, L314 : "E^{miss}_{T}" -> "p^{miss}_{T}“
 
- 
+**ADDRESSED: Fixed**
 
 L330 ~ L332, L363 ~ L366 and other places : Throughout this paper, "signal strength modifier" and "signal strength" are used to refer mu. If the two are same meaning, please select one.
 
@@ -721,7 +747,7 @@ Figure 6. : (top) --> left , (bottom) --> right
 
  
 
-*** Type B comments
+** Type B comments
 
  
 
