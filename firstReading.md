@@ -54,7 +54,7 @@ section. Added clarification in text.
 Details
 - line 4 Sloppy: Higgs mechanism -&gt; BEH or Brout-Englert-Higgs mechanism
 
-**TODO: Simple text editing**
+**ADDRESSED: Fixed**
 
 - line 84: "...initial state bs not included": is that an issue for the analysis?
    How does it affective analysis, if at all?
@@ -624,6 +624,8 @@ L74, 94, 187, 310, 316: You should write “Monte Carlo simulation” or “MC s
 
 L83: MadSpin needs a reference. Please check if this one is the latest: “P. Artoisenet, R. Frederix, O. Mattelaer, and R. Rietkerk, “Automatic spin-entangled decays of heavy resonances in Monte Carlo simulations”, JHEP 03 (2013) 015, doi:10.1007/JHEP03(2013)015, arXiv:1212.3460.”
 
+**ADDRESSED: Added**
+
 L98: You haven’t yet defined “\pt” as the transverse momentum.
 
 L137-139: "The physics objects are…" — It seems that this is taken from the PubComm recommendations (https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/PubDetector) but the twiki has been updated at some point, and this sentence in the paper should be made to match.
@@ -652,20 +654,23 @@ Table 2: Should be “Integrated luminosity”.
 
 Figure 3: most of the error bars in the ratio are off-scale, and in some bins the central value is nearly so. The range should make the results clear, as this is a very important plot.
 
- 
-
 ## Type A
 
 L33: Parallel construction — "or suggest" —> "or"; otherwise "or it could suggest", etc
+
+**ADDRESSED: Fixed**
 
 L166+: Line numbers are missing for this paragraph.
 
 L339: Should be “defined in Table 1 following Ref. [19]”.
 
+**ADDRESSED: Fixed**
+
 L365+: Line numbers missing.
 
 L426: “SM” needs to be redefined in the Summary section.
 
+**ADDRESSED: Fixed**
 
  
 # Comments from Kyungpook National University IR
@@ -676,10 +681,6 @@ L426: “SM” needs to be redefined in the Summary section.
 
 
 ** Type A comments
-
- 
-
- 
 
 L17 : Vector boson scattering processes form a distinct experimental signature
 
@@ -818,7 +819,9 @@ Question of ECAL prefiring:
 
 There is a probability that a fraction of events since late 2016 data have been lost due to L1 ECAL endcap prefiring.
 
-Did you take a look at the prefiring effect on forward jets with 2.25<|eta|<3.0 in 2016H on your analysis results?
+Did you take a look at the prefiring effect on forward jets with eta in 2.25 to 3.0 in 2016H on your analysis results?
+
+**TODO: Yes, this is the big one**
 
 
 # Comments from University of Pavia IR
@@ -998,7 +1001,7 @@ Table 1: '.. applied to showered and hadronized events'  this sounds slang
 l.227:  --> 'primarily ttbar and Z+jets'
 
 l.229: 'the Z gamma process ...'
-   You presumably mean 'the Z gamma(*) process'?
+   You presumably mean 'the Z gamma(\*) process'?
    I had to reread this sentence several times before I understood its
    intended meaning.
 
@@ -1233,31 +1236,57 @@ l.16: 'These interactions include WZ quartic couplings, as shown in Fig. 1 (a)'
 
 l.33: additional Higgs or other scalar bosons
 
+**ADDRESSED: Fixed**
+
 l.73: spurious quotation mark at the end
+
+**ADDRESSED: Fixed**
 
 l.191: 'single lepton trigger'
 
+**ADDRESSED: Fixed**
+
 l.209 'negligible effect'
 
+**ADDRESSED: Fixed**
+
 l.234: in a EW -> in  an EW
+
+**ADDRESSED: Fixed**
 
 Figure 2: If using (a) and (b) subcaptions under the plots,
   then why not use these instead of (left) and (right) in the caption?
   Alternatively, drop the (a) and (b) subcaptions.
 
+**ADDRESSED: Replaced left and right with (a) and (b)**
+
 l.356: 'Extraction of the significance' -> 'Extraction of the signal strength'
+
+**ADDRESSED: Changed**
 
 l.383: 'formulation'
 
+**ADDRESSED: Decline to change.**
+
 Table 4: CL limits for one -> CL intervals for each
+
+**ADDRESSED: Fixed**
 
 Fig 4: caption: shouldn't this be standalone (ie not refer to the caption of another figure)?
  In general the captions of these figures are very long, is there any information that can be dropped?
+
+**TODO: Hmm ok. To ask about**
 
 Figure 5:
   - remove timestamp at the bottom left of the figure.
   - contour -> contours
 
+**TODO: Oops. Will be fixed (to wait and see if plots change)
+
 Figure 6: The caption refers to (top) and (bottom) figures when the two plots are actualy side-by-side.
 
+**ADDRESSED: Fixed**
+
 Figure 6: exclusion -> upper
+
+**ADDRESSED: Fixed**
