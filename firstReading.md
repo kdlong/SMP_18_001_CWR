@@ -327,25 +327,46 @@ PHYSICS COMMENTS:
 
 - L121: since a single version fo Sherpa is used, drop the version here.
 
+**ADDRESSED: Fixed**
+
 - L129: the average pileup in 2016 data was 23, not 27. The number 27 is from online plots, which are made assuming different total inelastic cross section as used in the offline measurement.
+
+**ADDRESSED: Fixed**
 
 - LL131-132: as powerful as it is, the PF algorithm can't really reconstruct "each individual particle" in an event; please switch to the current PubComm-recommended: "... (PF) algorithm [39] that aims to reconstruct and identify each individual particle in an event with ...".
 
+**ADDRESSED: Fixed**
+
 - L166: ... for light-quark and gluon jets.
+
+**ADDRESSED: Fixed**
 
 - L173: since you use "j" to denote a jet, use: "... pjT/Aj for all pileup kets in an event."
 
+**ADDRESSED: Fixed**
+
 - L204: m&#8467;&#8467; should really be m&#8467;&#8242;&#8467;&#8242; throughout the paper, as you defined &#8467;&#8242; as the leptons front he Z boson decay.
+
+**ADDRESSED: Fixed**
 
 - L215 and multiple further places in the text: since you [correctly] use Roman "j" to denote jet starting on L20, you should use Roman "j" in all subsequent places in the paper, e.g., mjj, &#951;j1, etc. There are too many occurrences of this, which you should replace using context search throughout the paper.
 
+**ADDRESSED: Hopefully fixed most occurrences. To double check**
+
 - Table 1: the variables used in the first column often have not been introduced or have been called differently. In particular, suggest using p&#8467;&#8242;1T, p&#8467;&#8242;2T, p&#8467;T for the first three entries, |&#951;&#956;| and |&#951;e| [note Roman "e"] for the following two; |m&#8467;&#8242;&#8467;&#8242;&#8722;mZ| for the next one; m&#8467;&#8467; should read m&#8467;&#8242;&#8467;&#8242;; |&#951;(j)| and pT(j) should be |&#951;j and pjT; finally, use nb&#8722;jet [hyphen, not an en-dash]. Furthermore, I have a question on the fiducial requirements: for some of the variables, namely p&#8467;&#8242;1T, &#951;&#956;, they are looser than the EW signal selection used to make the measurement. How can you define the fiducial volume that goes beyond the range of your selection? That defeats the purpose of fiducial cross section, which doesn't rely on simulation to extrapolate beyond the measurement phase space! I urge you to redefine the fiducial selections by replacing 2.5 with 2.4 on muon pseudorapiditiy and by tightening the loose fiducial selection on the first lepton pT from the Z boson decay to 25 GeV.
 
+**ADDRESSED: Fixed I hope**
+**RESPONSE: In general the goal of the fiducial region is to reduce extrapolation. But a simpler definition is also preferred, and makes use of many theoretical tools (or comparisons with ATLAS much easier). Given that lepton pTs and rapidities are relatively insensitive to theoretical uncertainties, and because the uncertainty of the measurement is much higher than the extrapolation uncertainty this introduces, we prefer to keep the definition simplistic. 
+
 - LL268-269: the sentence is completely unintelligible. What is "2D discriminant", which has never been mentioned before? What is the range 5--25\%, given that in the very previous line you claim that this contribution is 9\%? What "It" refers to? Are you trying to say that while on average the QCD WZ process acceptance is 9\%, it varies between 5--25\% as a function of some variable? Then say so in plain English and define this variable properly! This sentence needs to be either removed or completely rewritten.
+
+**TODO: Ok, sure, he has a point**
 
 - L271-272: ... uncertainties in the respective predictions and by comparing them with the predictions from alternative matrix element and parton shower generators.
 
 - L273 and further in the text: the only QCD scale is &#923;QCD; what you call "QCD scales" are renormalization and factorization scales of the QCD RGE evolution, which goes beyond the level of details you need to give. Please either refer to them as "scale" or as "renormalization and factorization scales" and do not use "QCD". On this line, say: "uncertainties from the renormalization and factorization scale choice".
+
+**ADDRESSED: Fixed**
 
 - L273: you need to define the way PDF uncertainties are calculated not at the end of Section 7, but here, where it's first mentioned. You should also cite PDF4LHC Run 2 recommendations when you talk about NNPDF replicas.
 
@@ -363,23 +384,41 @@ PHYSICS COMMENTS:
 
 - L325: the sentence sounds funny: why would one measure the cross section by fitting the expected event yield? This is a closure test, not a measurement. Please, drop "and expected".
 
+**ADDRESSED: Fixed**
+
 - LL329,335,341,346-347,362,368: since several versions of MadGraph5_aMC@NLO are used in the analysis, it would be good to remind a reader which versions were used to obtain these predictions.
 
 - L340: I think you meant to say: "The acceptance increase from the tight to loose ..."
 
+**ADDRESSED: Fixed**
+
 - Figure 2: use "Dijet mass [GeV]" as the x axis caption on the left plot, to match the text; also remove the (a) and (b) labels below the figure.
+
+**ADDRESSED: Will be fixed in next iteration of plots**
 
 - LL363, 365+4, and Eq. (3): use the same terminology, &#956;WZjj, here, as introduced on L330.
 
+**ADDRESSED: These are different quantities, so the different notation is needed**
+
 - L375: ...  charge conjugation and parity conserving ...
+
+**ADRESSED: Fixed**
 
 - Eq. (4): use p&#8407; T(W,Z) to denote vectors; define ET [note T in Roman].
 
+**ADRESSED: Fixed, but still a good idea to double check the definition...**
+
 - L383: technically speaking, the f&#57915;i parameters are not "couplings" but [Wilson] coefficients in the EFT operator expansion. Suggest to call them coefficients, and not couplings, throughout the paper.
+
+**ADRESSED: Fixed**
 
 - LL398-399: while it's clear from the comparison of Table 4 and Fig. 5, that the contours correspond to the 2D likelihood function quantiles [i.e., the intercepts of the ellipse with the axes correspond to a larger interval than the 1D limits quoted in Tavle 4], it won't hurt to state this explicitly in the text: "The resulting 2D 95\% CL limits ..."
 
+**ADRESSED: Fixed**
+
 - Figure 5: remove the (a) and (b) labels below the figures.
+
+**ADRESSED: Fixed**
 
 - Figure 6: sH [H in Roman] in the right pane y axis label. The right-hand-side plot could benefit from suppressing zero on the y axis and zooming on the interesting region in sH.
  
@@ -388,29 +427,51 @@ STYLE COMMENTS:
 
 Title: suggest "of electroweak WZ boson production" and "in proton-proton" collisions;
 
+**ADRESSED: Fixed**
+
 Introduction:
 
 L3: ATLAS and CMS Collaborations [1,2,2a] at the CERN LHC provides;
 
+**ADRESSED: Fixed**
+
 L5: to the Higgs field and;
+
+**ADRESSED: Fixed**
 
 L10: in proton-proton (pp) [note a hyphen, not an en-dash];
 
+**ADRESSED: Fixed**
+
 L11: ATLAS and CMS Collaborations and 7, 8, and 13 TeV [since ATLAS published earlier, it should be mentioned first];
+
+**ADRESSED: Fixed**
 
 L13: by the ATLAS Collaboration;
 
+**ADRESSED: Fixed**
+
 LL14-15: or via vector boson;
+
+**ADRESSED: Fixed**
 
 L18: forward, high-momentum jets;
 
+**ADRESSED: Fixed**
+
 L21: to the WZjj channel proceeds;
 
+**ADRESSED: Fixed**
+
 Fig. 1 caption, LL1-2: The EW-induced [can't start a sentence with an acronym]; L3: (b) via kinematic variables.
+
+**ADRESSED: Fixed**
 
 The CMS detector:
 
 L56: resistive-plate chambers;
+
+**DECLINED: This is inconsistent with most CMS papers**
 
 L73: eliminate a stray quotation mark at the end of the line;
 
@@ -418,75 +479,139 @@ Data and Monte Carlo samples:
 
 L75: sample of pp collisions;
 
+**ADRESSED: Fixed**
+
 L79: leading order (LO);
+
+**ADRESSED: Fixed**
 
 L83: using {\sc MadSpin}.
 
+**ADRESSED: Fixed**
+
 LL98,99: &#956;R; &#956;F [R and F in Roman];
+
+**ADRESSED: Fixed**
 
 L99: mW [W in Roman, twice];
 
+**ADRESSED: Fixed**
+
 L100: mass, taken from Ref. [22].
+
+**ADRESSED: Fixed**
 
 L107: The production of ZZ pairs via;
 
+**ADRESSED: Fixed**
+
 L110: at next-to-NLO (NNLO) order [you use the acronym NNLO later in the text];
+
+**ADRESSED: Fixed**
 
 L113: via {\sc MadSpin}.
 
 L123: as the corresponding hard scattering process.
 
+**ADRESSED: Fixed**
+
 Event reconstruction:
 
 L131: a particle-flow (PF) algorithm [you use the acronym later];
 
+**ADRESSED: Fixed**
+
 L135: PF objects in an event.
+
+**ADRESSED: Fixed**
 
 L149: associated with small;
 
+**ADRESSED: Fixed**
+
 L155: algorithm [42] with a distance parameter R=0.4;
+
+**ADRESSED: Fixed**
 
 L162: between jets from hard scattering and from pileup interactions.
 
+**ADRESSED: Fixed**
+
 L165: b quark jets;
+
+**ADRESSED: Fixed**
 
 L166+3: <0.3 (0.4) around electron (muon) direction [follow the logic of the paper: electrons described before muons];
 
+**ADRESSED: Fixed**
+
 L183: about 85 (77)\% at peT&#8776;10 GeV to about 95 (89)\% for;
 
+**ADRESSED: Fixed**
+
 L187: The data-to-simulation efficiency ratios;
+
+**ADRESSED: Fixed**
 
 Event selection:
 
 L202: the events are required to have pmissT>30 GeV.
 
+**ADRESSED: Fixed**
+
 LL213-214: with the second-highest pT;
+
+**ADRESSED: Fixed**
 
 L217: between &#8722;2.5 and +2.5. [Minus sign, not a hyphen.]
 
+**ADRESSED: Fixed**
+
 L220: the ``Higgs boson selection".
+
+**ADRESSED: Fixed**
 
 Table 1 caption, LL2-3: The EW signal selection; LL3-4: for charged Higgs boson search, which uses the selection; L6: to Born-level leptons;
 
+**ADRESSED: Fixed**
+
 Table 2 body, header line: ES signal; Higgs boson; Tight fiducial; Loose fiducial;
+
+**ADRESSED: Fixed**
 
 Background estimation:
 
 L225: add a comma after "e.g." [US English];
 
+**ADRESSED: Fixed**
+
 LL228-229: are estimated from control samples in data. [Since data-driven is jargon!]
+
+**ADRESSED: Fixed**
 
 LL238-239: with the {\sc vbfnlo} prediction [50].
 
+**ADRESSED: Fixed**
+
 LL239-240: is further discussed in Section 7.
+
+**ADRESSED: Fixed**
 
 LL241-242: processes with nonprompt leptons are evaluated using control regions in data of events;
 
+**ADRESSED: Fixed**
+
 L245: ``tight-to-loose";
+
+**ADRESSED: Fixed**
 
 L252: with the tight-to-loose [no quotation marks and no italics];
 
+**ADRESSED: Fixed**
+
 LL257-258: is limited by the event count in control regions;
+
+**ADRESSED: Fixed**
 
 L260: in WZjj events.
 
@@ -550,24 +675,37 @@ Fig. 3 caption, L1: The one-dimensional representation of the 2D distribution of
 
 L365+2: local p value;
 
+**ADDRESSED: p-value appears much more commonly in other publications**
+
 L366: uncertainty in the &#956;WZjj measurement;
+
+**ADDRESSED: Fixed**
 
 Table 3 caption, L1: Post-fit event yields;
 
+**ADDRESSED: Postfit is the term I see in the literature. Can you provide a reference to a recommendation?**
+
 Table 3 body, header line: Total yield; first column: Pred. background; EW WZ signal;
+
+**ADDRESSED: Fixed**
 
 Limits on anomalous quartic gauge couplings:
 
 LL371,378: aQGCs;
 
+**TODO: Is this really the recommendation?**
+
 L378: mixture of gauge and Higgs field interactions;
 
 L383: coupling for the operator;
+
+**ADDRESSED: Fixed**
 
 L387: coupling value, a parabolic;
 
 LL390-391: put commas around "except for the coupling being probed";
 
+**ADDRESSED: This seems an optional style comment to me**
 Fig. 4 caption, L2: on the anomalous coupling parameters.
 
 Fig. 5 caption, LL2-3: expected 68, 95, and 99\% CL limits (dashed contours) on; L3: confidence confidence levels.
@@ -696,37 +834,41 @@ in terms of...., shown in Fig. 1 (c) and (d), -> in the generalized framework of
 
 L48 : define pT here because of it appear for the first time, e.g.,
 
+**ADDRESSED: Fixed** 
+
 with 1 < pT < 10 GeV -> with the transverse momentum pT range of 1-10 GeV
 
 (if so, L143-144: the transverse momentum, pT -> pT)
 
- 
+**ADDRESSED: Fixed** 
 
 L73 : remove the symbol ' at the end
 
+**ADDRESSED: Fixed** 
  
-
 L92 : "NLO" -> "next-to-LO (NLO)“
 
- 
+**ADDRESSED: Fixed** 
 
 L110 : "next-to-next-to-leading order" -> "next-to-NLO" or "next-to-NLO (NNLO)“
 
- 
+**ADDRESSED: Fixed** 
 
 L155 : "PF" was not defined. so "particle-flow" -> "particle-flow (PF)" in L131.
 
- 
+**ADDRESSED: Fixed** 
 
 L164 : its decay to b quarks -> its decay to b quark
 
- 
+**ADDRESSED: Fixed** 
 
 Eq.1 : change comma to a period
 
+**ADDRESSED: Fixed** 
+
 Eq.3 : add a period
 
- 
+**ADDRESSED: Fixed** 
 
 L248, L314 : "E^{miss}_{T}" -> "p^{miss}_{T}“
 
@@ -734,7 +876,7 @@ L248, L314 : "E^{miss}_{T}" -> "p^{miss}_{T}“
 
 L330 ~ L332, L363 ~ L366 and other places : Throughout this paper, "signal strength modifier" and "signal strength" are used to refer mu. If the two are same meaning, please select one.
 
- 
+**ADDRESSED: Fixed**
 
 L351 : "The ratio of EW to QCD-induced production of WZjj grows .... in Fig.2 ... " There is no this ratio histogram in Fig.2. This sentence and Fig.2 doesn't match.
 
@@ -742,19 +884,15 @@ L351 : "The ratio of EW to QCD-induced production of WZjj grows .... in Fig.2 ..
 
 L372 : remove "(EFT)“
 
- 
+**ADDRESSED: Fixed**
 
 Figure 5. : This figure has 99% CL curve, but there is no explanation in the text nor in the caption.
 
- 
+**ADDRESSED: Fixed**
 
 Figure 6. : (top) --> left , (bottom) --> right
 
- 
-
- 
-
- 
+**ADDRESSED: Fixed**
 
 ** Type B comments
 
@@ -774,15 +912,16 @@ L94 : specify a version and add a reference for POWHEG (one listed in L108?)
 
 L127-129 : Can you put a reference for the average of number of pileup?
 
-   
+**ADDRESSED: We are not aware of an appropriate reference, though the number has been corrected**   
 
 L155 : with R = 0.4 -> with a distance parameter of 0.4
 
  
+**ADDRESSED: Fixed**
 
 L157 : define deltaR here (instead of defining in L166-167)
 
- 
+**ADDRESSED: Fixed**
 
 L212-220 : you consider the two leading pT jets and look for them passing the other Mjj and deta selections.
 
@@ -792,16 +931,17 @@ Another question is what happens if you perform all possible dijet pairs with pT
 
 Can you choose the one with the highest value of m(jj) and compare to your results in this case?
 
+**ADDRESSED: Studies were made of such optimizations when the analysis was first developed. The number of events with multiple pairs of jets with mjj > 100 **
+
 Same questions to the Higgs signal selection.
 
  
 
 L231 : could you explain why both components are excluded from the nonprompt estimation?
 
- 
+**ANSERED: Because the nonprompt estimate is designed for non-isolated backgrounds, e.g., leptons from hadronic decays. Z$\gamma$ backgrounds arise primarily from photon conversions, which is well-modeled by simulation and is not the focus of the tight to loose estimation. 
 
 L276 : add a reference for the FxFx algorithm (e.g doi:10.1007/JHEP12(2012)061)
-
  
 
 L406 and Figure 6. : There are two definitions of s_H. One is "the fraction of the contribution from the triplets to the W bosons" (L.406) and the other is "the vacuum expectation value ratio"(Figure 6.) If the two definitions are identical in GM model, then it woud be better to describe clear definition around L.406 and then Figure 6 doesn't need to define it again.
@@ -821,7 +961,7 @@ There is a probability that a fraction of events since late 2016 data have been 
 
 Did you take a look at the prefiring effect on forward jets with eta in 2.25 to 3.0 in 2016H on your analysis results?
 
-**TODO: Yes, this is the big one**
+**TODO: Decide whether we change the results**
 
 
 # Comments from University of Pavia IR
@@ -830,14 +970,21 @@ We have only minor suggestions:
 
 line 144 : too many commas : it's difficult to read . Better "transverse momentu pt and eta and on a categorization
 
+**ADDRESSED: Fixed**
+
 line 148 : "minimal quality requirements" would it be possible to have a ref where "minimal" is defined ?
+
+**TODO: This is kind of a shitty sentence, probably left over from ZZ, rewrite it**
 
 line 198-199 : " if more then one combination is possible" your choice doesn't make any bias on the sample? (It may be better to say how many cases they are)
 
+**ADDRESSED: It does slightly skew the Z mass shape but it does not bias the signal vs. background and is the typical choice in other analyses. Added a clarification that there are at most two combinations, in the eee and mmm channels.**
+
 line 284 : it could be better , if possible, to insert a ref. on RIVET ?
 
-Summary : Results are very nice so it may be worth to spent some more writing on previous analysis comparison
+**TODO: Yeah yeah**
 
+Summary : Results are very nice so it may be worth to spent some more writing on previous analysis comparison
 
 # Comments from DESY IR
 
