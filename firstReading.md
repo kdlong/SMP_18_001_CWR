@@ -70,7 +70,7 @@ The merging scale was studied, and is subleading with respect to MC uncertaintie
 explicitly considered. We include the scale based on previous suggestions to have it 
 there.
 
-**TODO: Personally I don't care at all...**
+**ADDRESSED: Removed
 
 - line 92: This looks a bit strange: comparing a NLO with a LO prediction to assess
     the modelling uncertainty. What did you check and what did you conclude?
@@ -93,7 +93,7 @@ point, so we present the comparison itself without an excess of technical detail
 
 - line 98 "with THE dynamic"
 
-**TODO: Fix**
+**ADDRESSED: Fixed**
 
 - line 103 "...for identical configurations" What do you mean here? Event topologies?
     Please say exactly what is meant.
@@ -102,18 +102,18 @@ point, so we present the comparison itself without an excess of technical detail
 
 - line 104: I recommend to start this paragraph with a list the main backgrounds
 
-**TODO: Do this**
+**ADDRESSED: Fixed**
 
 - line 110-111 "k-Factors" -&gt; K-factors" as most generally used.
 
-**TODO: Fix**
+**ADDRESSED: Fixed**
 
 - line 129: "27 pile -up interactions". Possibly the correct number but in recent
     CWR papers I have seen everything between 20 to 27 pile-up numbers quoted  for the
     same data set. I recommend to put the '27' only if this is the agreed number upon
     for all our papers on 2016 data set analyses.
 
-**TODO: Other papers say 23. I've changed it. But any reference?**
+**ADDRESSED: Fixed**
 
 - section 4: We should also say very briefly how we reconstruct neutral hadrons and
    photons with the PF algorithm as we eg use these in the isolation requirements.
@@ -132,16 +132,15 @@ REFORMAT
    between barrel and endcap in the ECAL, correct? Do we control the data/MC difference of the
    efficiency there well enough?
 
-**TODO: Change, I guess**
-REFORMULATE
+**ADDRESSED: Yep that's how the EGamma central ideas are done**
 
 - line 209: affect -&gt; effect
 
-**TODO: Fix**
+**ADDRESSED: Fixed**
 
 - line 217 -2.5   The 'minus' is a bit poor. Maybe put &minus; or give |eta|&lt; 2.5
 
-**TODO: Fix**
+**ADDRESSED: Fixed**
 
 - line 248: See line 135:  in this paper we define and use pTMiss and NOT ETmiss!
     Also this has become the common practice in all our papers.
@@ -153,7 +152,7 @@ REFORMULATE
 - line 267-269. Not easy to understand for the reader as the introduction to 2D
    comes only later in the paper.
 
-REFORMULATE
+**ADDRESSED: Reworded**
 
 - line 276: FxFx merging is typically used for NLO samples (dono if it
    works also consistently with LO generations), rather than for LO samples
@@ -163,17 +162,15 @@ REFORMULATE
 
 Comment: See previous response above. Rewrote in a hopefully more clear fashion.
 
-REFORMULATE
-
 - line 279: "generally seen to be within..." Is that an observation you made with
    studies in this analysis? Then I would rather say "generally found to be within..."   
 
-**TODO: Fix**
+**ADDRESSED: Fixed**
 
 - line 282: so what do we use this sample for? Do we find that the POWHEG agrees with the
     MC studies that we use? We should say something here.
 
-**TODO: Add that we see agreement.**
+**ADDRESSED: Added more detail**
 
 - line 286: "for fixed and dynamic scale". Say here what scale you mean.
 
