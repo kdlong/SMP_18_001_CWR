@@ -612,63 +612,119 @@ LL257-258: is limited by the event count in control regions;
 
 L260: in WZjj events.
 
+**ADRESSED: Fixed**
+
 L261: relaxing the jet pT requirement in WZ events;
+
+**ADRESSED: Fixed**
 
 Systematic uncertainties:
 
 LL267-268: The uncertainty in the events acceptance for the EW signal selection;
 
+**ADRESSED: Fixed**
+
 L268: and 5\% for EW WZ processes.
+
+**ADRESSED: Fixed**
 
 L270: The uncertainties in the QCD WZ background and EW WZ signal;
 
+**ADRESSED: Fixed**
+
 L274: The uncertainty in the QCD-induced;
+
+**ADRESSED: Fixed**
 
 LL279-280: within the scale and PDF uncertainties;
 
+**ADRESSED: Fixed**
+
 L281: add a comm before "but";
+
+**ADRESSED: Declined**
 
 L283: and QCD WZ processes interference is evaluated with particle-level simulated events;
 
+**ADRESSED: Fixed**
+
 L286: for both fixed and dynamic scales.
+
+**ADRESSED: Rephrased**
 
 L290: uncertainty in the;
 
+**ADRESSED: Fixed**
+
 L291: Higher-order EW corrections to VBS processes;
+
+**ADRESSED: Fixed**
 
 L303: in both the EW signal and Higgs boson selections.
 
+**ADRESSED: Fixed**
+
 L304: in prompt backgrounds are;
+
+**ADRESSED: Fixed**
 
 L308: &#956;R/&#956;F&#8805;2. [F, R in Roman.]
 
+**ADRESSED: Fixed**
+
 L309: The PDF uncertainties;
+
+**ADRESSED: Fixed**
 
 Table 2 body, header line: &#963;WZjj [jj in Roman]; EW WZ signal significance; first columns: Nonprompt event count; b tagging; Integrated luminosity; second column: please typeset all the plus and minus signs in math mode; either replace the dash with N/A, or explain the dash in the caption.
 
+**ADRESSED: Fixed**
+
 L315: the b quark content;
 
+**ADRESSED: Fixed**
+
 L316: in the b tagging efficiency between data and simulation.
+
+**ADRESSED: Fixed**
 
 Fiducial Cross Section ...:
 
 LL322-323: Fiducial cross section measurement and search for EW WZ production;
 
+**ADRESSED: Fixed**
+
 L328: EW- and QCD-induced;
+
+**ADRESSED: Fixed**
 
 L330: &#956;WZjj [jj in Roman];
 
+**ADRESSED: Fixed**
+
 L338: The interference term contribution;
+
+**ADRESSED: Fixed**
 
 L343: from the scale and PDF uncertainties;
 
+**ADRESSED: Fixed**
+
 L344: The scale uncertainty in the;
+
+**ADRESSED: Fixed**
 
 Fig. 2 caption, L8: uncertainties in the;
 
+**ADRESSED: Fixed**
+
 LL350,351: the EW- and QCD-induced;
 
+**ADRESSED: Fixed**
+
 Fig. 3 caption, L1: The one-dimensional representation of the 2D distribution of the dijet mass; L2: signal extraction. The x axis shows;
+
+**ADRESSED: Fixed**
 
 L365+2: local p value;
 
@@ -694,44 +750,73 @@ LL371,378: aQGCs;
 
 L378: mixture of gauge and Higgs field interactions;
 
+**ADRESSED: Fixed**
+
 L383: coupling for the operator;
 
 **ADDRESSED: Fixed**
 
 L387: coupling value, a parabolic;
 
+**ADRESSED: Fixed**
+
 LL390-391: put commas around "except for the coupling being probed";
 
 **ADDRESSED: This seems an optional style comment to me**
+
 Fig. 4 caption, L2: on the anomalous coupling parameters.
 
+**ADRESSED: Fixed**
+
 Fig. 5 caption, LL2-3: expected 68, 95, and 99\% CL limits (dashed contours) on; L3: confidence confidence levels.
+
+**ADRESSED: Fixed**
 
 Limits on Charged Higgs Production:
 
 L401: Limits on charged Higgs boson production;
 
+**ADRESSED: Fixed**
+
 L402: charged Higgs bosons (H±) with;
+
+**ADRESSED: Fixed**
 
 LL408-409: Higgs boson selection;
 
+**ADRESSED: Fixed**
+
 L417: to be unity.
+
+**ADRESSED: Fixed**
 
 Summary:
 
 L424: at the LHC in 2016.
 
+**ADRESSED: Fixed**
+
 Fig. 6 caption, L2: replace H+ with H± [also note H in Roman]; replace BR with &#57902;, as on L416; replace (top) with (left); L3: Georgi--Machacek [en-dash, not a hyphen] model (right)
 .
+**ADRESSED: Fixed**
+
 L433: from either the WZ channel or from other channels.
+
+**ADRESSED: Fixed**
 
 References:
 
 Ref. [5]: fix "(&#8730;s) in the title.
 
+**ADRESSED: Fixed**
+
 Ref. [22]: consider replacing with the just announced 2018 edition.
 
+**ADRESSED: Fixed**
+
 Ref. [34]: long published in Eur. Phys. J. C {\bf 76} (2016) 196; please add the journal and doi references.
+
+**ADRESSED: Fixed**
 
 Refs. [42,44]: these are identical references; please replace Ref. [44] with [42] in the paper on L161.
 
