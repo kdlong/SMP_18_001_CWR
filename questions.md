@@ -821,11 +821,12 @@ l.84: 'Contributions with an initial state b quark are not included'
   Weird, why not?
   Please motivate.
 
-**ADDRESSED" They are not included in the signal, as this essentially defines the tZq process. Added clarification.**
+**ADDRESSED: They are treated as background as part of the  tZq process. This has been clarified.**
 
 l.91: why does one need to merge different jet multiplicities?
 
-**ADDRESSED: For modeling of the n_jet kinematics, having the n+1_jet process at ME-level is always preferable.**
+**ADDRESSED: Having a ME description of the n+1j process is always preferable for
+a description of n-jet kinematics**
 
 l.96:, how can the diagrams in Fig.1 (a) and (b) interfere, they have
   a different final state.
@@ -854,7 +855,7 @@ l.110: 'calculated at NNLO for qqbar to ZZ ... and at NLO for gg->ZZ'
    from the same order PDFs, with nonoverlapping matrix elements.
    The clean solution here would be to take everything from NLO QCD.
 
-** This is a matter of debate, we here follow the same procedure as was used for the ZZ cross section measurement (SMP-16-007) based on consultation with experts in NNLO caclulations. The procedure balances using the best-available cross sections for different components (which are gauge invariant and therefore can be treated independently). The gq process arising as an NLO correction to the qq process.**
+**This is a matter of debate, we here follow the same procedure as was used for the ZZ cross section measurement (SMP-16-007) based on consultation with experts in NNLO caclulations. The procedure balances using the best-available cross sections for different components (which are gauge invariant and therefore can be treated independently). The gq process arising as an NLO correction to the qq process.**
 
 l.121: --> 'For all simulations used in this analysis the NNPDF3.0 [36] set ...'
   Reason: Otherwise it sounds as if you are just referring to the sim. mentioned

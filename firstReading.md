@@ -1150,6 +1150,8 @@ l.28: 'These kinematic selections are used to distinguish the EW.. from
 l.54-60: the detailed discussion of the muon system vs. eta and track pt resolutions.. where is
   this later relevant?
 
+**ADDRESSED: Shortened CMS detector description**
+
 >>>>>>>>> Section 3 <<<<<<<<
  - The labels LO, NLO and NNLO are used extensively throughout this section,
    but they often mean different things, which can be very confusing.
@@ -1159,22 +1161,40 @@ l.54-60: the detailed discussion of the muon system vs. eta and track pt resolut
    -> In general, clearly specify for each "XLO" label whether you refer
       to EW or to QCD.
 
+**ADDRESSED: The name MadGraph5_aMC@NLO is the full name of the generator, which admittedly
+leads to awkward phrasing when it's used at LO. In all cases we mean LO/NLO/NNLO in QCD,
+which should be clear by the definition of the acronyms.**
+
 l.81: 'resonant W boson propagator', perhaps a stupid question, but could there be
   also a 'resonant Z boson propagator'
+
+**ADDRESSED: Yes, Z can be on or off-shell and can include gamma.* The important point is that the W must be resonant, and it is decayed with MadSpin. This is done to reduce the complexity of the generation.**
 
 l.84: 'Contributions with an initial state b quark are not included'
   Weird, why not?
   Please motivate.
 
+**ADDRESSED: They are treated as background as part of the  tZq process. This has been clarified.**
+
 l.91: why does one need to merge different jet multiplicities?
+
+**ADDRESSED: Having a ME description of the n+1j process is always preferable for
+a description of n-jet kinematics**
 
 l.96:, how can the diagrams in Fig.1 (a) and (b) interfere, they have
   a different final state.
   Please give the reader an idea about the graphs which do interfere
   (citation?)
 
+**ADDRESSED: Interference in this context refers to the $\alpha^3\alpha_{s}$ contribution to the process,
+which arises through the mix of diagrams not shown here. This has been clarified.**
+
 l.106: why use four-flavour scheme and scale to five-flavour scheme,
   why not using five-flavour scheme from the start?
+
+**ADDRESSED: Studies, such as the one referenced, have demonstrated that at NLO, 
+the b jet kinematics are best at higher orders are best reproduced by
+4 flavor calculations, whereas cross sections are best described with the 5 flavor scheme.**
 
 l.110: 'calculated at NNLO for qqbar to ZZ ... and at NLO for gg->ZZ'
    This does not make sense. A qqbar initial state at NNLO (NNLO PDFS)
@@ -1191,24 +1211,36 @@ l.110: 'calculated at NNLO for qqbar to ZZ ... and at NLO for gg->ZZ'
    from the same order PDFs, with nonoverlapping matrix elements.
    The clean solution here would be to take everything from NLO QCD.
 
+**This is a matter of debate, we here follow the same procedure as was used for the ZZ cross section measurement (SMP-16-007) based on consultation with experts in NNLO caclulations. The procedure balances using the best-available cross sections for different components (which are gauge invariant and therefore can be treated independently). The gq process arising as an NLO correction to the qq process.**
+
 l.121: --> 'For all simulations used in this analysis the NNPDF3.0 [36] set ...'
   Reason: Otherwise it sounds as if you are just referring to the sim. mentioned
   on top of p.4
+
+**ADDRESSED: Fixed**
 
 >>>>>>>>> Section 4 <<<<<<<<<
 l.136-139: --> it is clear that charged tracks can be associated to a primary vertex candidate,
   but how can the associated pt_miss (as mentioned) and how can a jet be associated to a primary vertex?
   In particular the pt_miss I find confusing.
 
+**ADDRESSED: Updated to newer description from twiki. For the case of the primary vertex, the MET is defined using track jets associated to the primary vertex.**
+
 l.180-188:, is the rather detailed listing of eff. vs eta so crucial?
+
+**ADDRESSED: No, removed**
 
 >>>>>>>>> Section 5 <<<<<<<<<
 l.204: "no b tagged jet with pT>30 GeV and |eta|<4.7"
    Can we do b tagging up to |eta|=4.7 ?
    Very misleading. Quote the actual btag range (2.4?) instead?
 
+**ADDRESSED: Fixed**
+
 l.207: 'chosen for event generation efficiency'
   is this a good argument? Perhaps just omit.
+
+**ADDRESSED: Rephrased**
 
 Table 1: content: is >20, >20 in the first two lines of the
   "loose fiducial" really intentional, or is it a typo?
@@ -1216,12 +1248,18 @@ Table 1: content: is >20, >20 in the first two lines of the
   If not a typo, specify why? (maybe compatibility with some external
   prediction?)
 
+**ADDRESSED: it is not a typo, but is done for comparisons to other predictions, as described in the text.**
+
 Table 1: what you call the first two columns one could call the second
   and third column.. I think it is better to write 'in the columns labelled "EW Signal"
   and "Higgs signal"... indicated in the column "Higgs Signal" .
 
+**ADDRESSED: Fixed**
+
 Table 1: '.. applied to showered and hadronized events'  this sounds slang
 --> 'applied to showered and hadronised simulated events'
+
+**ADDRESSED: Rephrased**
 
 >>>>>>>>> Section 6 <<<<<<<<<
 - It should be described how the EW WZ process is evaluated as background for the aQGC and Higgs analyses,
@@ -1229,14 +1267,20 @@ Table 1: '.. applied to showered and hadronized events'  this sounds slang
 
 l.227:  --> 'primarily ttbar and Z+jets'
 
+**ADDRESSED: Fixed**
+
 l.229: 'the Z gamma process ...'
    You presumably mean 'the Z gamma(\*) process'?
    I had to reread this sentence several times before I understood its
    intended meaning.
 
+**ADDRESSED: Rephrased**
+
 l.229-231:  Not clear. If I understood correctly one wants to say "... data-driven technique,
   except for the component of the Z&#947; process in which the photon experiences conversion into leptons in the tracker (non prompt).
   In such case, simulation is used.
+
+**ADDRESSED: Rephrased**
 
 par l.233-240: for the measurement of WZjj the QCD WZ production is signal.
   Here you treat is as background and do a normalisation using control regions.
