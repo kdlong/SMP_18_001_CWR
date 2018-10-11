@@ -815,19 +815,29 @@ l.54-60: the detailed discussion of the muon system vs. eta and track pt resolut
 l.81: 'resonant W boson propagator', perhaps a stupid question, but could there be
   also a 'resonant Z boson propagator'
 
+**ADDRESSED: Yes, Z can be on or off-shell and can include gamma.* The important point is that the W must be resonant, and it is decayed with MadSpin. This is done to reduce the complexity of the generation.**
+
 l.84: 'Contributions with an initial state b quark are not included'
   Weird, why not?
   Please motivate.
 
+**ADDRESSED" They are not included in the signal, as this essentially defines the tZq process. Added clarification.**
+
 l.91: why does one need to merge different jet multiplicities?
+
+**ADDRESSED: For modeling of the n_jet kinematics, having the n+1_jet process at ME-level is always preferable.**
 
 l.96:, how can the diagrams in Fig.1 (a) and (b) interfere, they have
   a different final state.
   Please give the reader an idea about the graphs which do interfere
   (citation?)
 
+**ADDRESSED: "Interference" in this case refers in general to the alpha^3xalph_s component of the WZjj state, and arises from diagrams that do have a common final state, not pictured in the diagram. This has been clarified**
+
 l.106: why use four-flavour scheme and scale to five-flavour scheme,
   why not using five-flavour scheme from the start?
+
+**ADDRESSED: This is common procedure in modeling heavy-flavor processes. At very higher orders treating the b-quark as massive is preferable, but at NLO, the kinematics of the b quarks are seen to best approximate higher order results, while 5 flavor calculations best model the cross section.**
 
 l.110: 'calculated at NNLO for qqbar to ZZ ... and at NLO for gg->ZZ'
    This does not make sense. A qqbar initial state at NNLO (NNLO PDFS)
@@ -844,9 +854,13 @@ l.110: 'calculated at NNLO for qqbar to ZZ ... and at NLO for gg->ZZ'
    from the same order PDFs, with nonoverlapping matrix elements.
    The clean solution here would be to take everything from NLO QCD.
 
+** This is a matter of debate, we here follow the same procedure as was used for the ZZ cross section measurement (SMP-16-007) based on consultation with experts in NNLO caclulations. The procedure balances using the best-available cross sections for different components (which are gauge invariant and therefore can be treated independently). The gq process arising as an NLO correction to the qq process.**
+
 l.121: --> 'For all simulations used in this analysis the NNPDF3.0 [36] set ...'
   Reason: Otherwise it sounds as if you are just referring to the sim. mentioned
   on top of p.4
+
+**ADDRESSED: Fixed**
 
 >>>>>>>>> Section 4 <<<<<<<<<
 l.136-139: --> it is clear that charged tracks can be associated to a primary vertex candidate,
@@ -854,6 +868,8 @@ l.136-139: --> it is clear that charged tracks can be associated to a primary ve
   In particular the pt_miss I find confusing.
 
 l.180-188:, is the rather detailed listing of eff. vs eta so crucial?
+
+**ADDRESSED: No, removed**
 
 >>>>>>>>> Section 5 <<<<<<<<<
 l.204: "no b tagged jet with pT>30 GeV and |eta|<4.7"
@@ -863,18 +879,26 @@ l.204: "no b tagged jet with pT>30 GeV and |eta|<4.7"
 l.207: 'chosen for event generation efficiency'
   is this a good argument? Perhaps just omit.
 
+**ADDRESSED: Rephrased**
+
 Table 1: content: is >20, >20 in the first two lines of the
   "loose fiducial" really intentional, or is it a typo?
   One can do this, but it is not obvious from the context why one would.
   If not a typo, specify why? (maybe compatibility with some external
   prediction?)
 
+**ADDRESSED: it is not a typo, but is done for comparisons to other predictions, as described in the text.**
+
 Table 1: what you call the first two columns one could call the second
   and third column.. I think it is better to write 'in the columns labelled "EW Signal"
   and "Higgs signal"... indicated in the column "Higgs Signal" .
 
+**ADDRESSED: Fixed**
+
 Table 1: '.. applied to showered and hadronized events'  this sounds slang
 --> 'applied to showered and hadronised simulated events'
+
+**ADDRESSED: Fixed**
 
 >>>>>>>>> Section 6 <<<<<<<<<
 - It should be described how the EW WZ process is evaluated as background for the aQGC and Higgs analyses,
@@ -882,14 +906,20 @@ Table 1: '.. applied to showered and hadronized events'  this sounds slang
 
 l.227:  --> 'primarily ttbar and Z+jets'
 
+**ADDRESSED: Fixed**
+
 l.229: 'the Z gamma process ...'
    You presumably mean 'the Z gamma(*) process'?
    I had to reread this sentence several times before I understood its
    intended meaning.
 
+**ADDRESSED: Rephrased**
+
 l.229-231:  Not clear. If I understood correctly one wants to say "... data-driven technique,
   except for the component of the Z&#947; process in which the photon experiences conversion into leptons in the tracker (non prompt).
   In such case, simulation is used.
+
+**ADDRESSED: Rephrased**
 
 par l.233-240: for the measurement of WZjj the QCD WZ production is signal.
   Here you treat is as background and do a normalisation using control regions.
