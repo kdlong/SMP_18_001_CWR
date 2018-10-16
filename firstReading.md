@@ -296,6 +296,8 @@ PHYSICS COMMENTS:
 
 - Figure 1: in the diagrams (a), (c), (d), you should explicitly put W± and Z along the two bosons emitted by the quarks. If you put W± on top, the lower outgoing quark should be the same as the corresponding incoming quark, but it must be changed to an antiquark q¯ in order to conserve electric charge. Since the two incoming quarks do not have to be of the same type, suggest labeling the upper two quarks as q' and q", while keeping the two at the bottom as q. The diagram (b) as shown, violates electric charge conservation; you should replace q¯ with q¯&#8242; and also mark the internal quark lines as q, q', q¯&#8242; (top to bottom).
 
+**ADDRESSED: Fixed**
+
 - LL26-31: this paragraph really breaks the flow of the text; suggest moving it after the one ending on L37.
 
 **TODO: This is ok with me**
@@ -1123,6 +1125,11 @@ Title:
   Reason: it seems that the WZjj measurement is the main result of
   this paper and not the electroweak WZ production
 
+**ADDRESSED: The WZjj is measured in a reason sensitive to EW WZ production,
+and it is this process that drives the nature of this analysis. We do not 
+feel it the slight downward fluctuation of our observation necessitates 
+reformulating the paper.**
+
 Abstract:
   Suggest to have first the sentence
   "The total WZ plus two jet production cross ssection is measured in fiducial
@@ -1135,6 +1142,8 @@ Abstract:
 >>>>>>>>> Section 1 <<<<<<<<
 Fig.1: , is the diagram (a) really correct, isn't one of the q
   quarks ending as q and not q'?
+
+**ADDRESSED: Added more explicit labeling**
 
 l.26: What do the authors mean by "moderate missing transverse momentum"
 
@@ -1469,14 +1478,22 @@ l.390: There is not a single fit in the CLs criterion, but many. Would remove 'e
   the coupling being probed to 0 is a valid assumption,
   but did you also try this leaving the unprobed parameters floating?
 
+**ADDRESSED: Fixed. This is considered for two parameters in the 2D limits. Studies have been made in the 
+past as well, but due to the similarities between different operators, the approach used here 
+is allows much easier interpretation that has been adopted by ATLAS and CMS for other analyses as well.**
+
 l.390: 'using the CLs criterion', please use this wording recommended by the Stat. Comm.
   Please take note that [59] = [54]
+
+**ADDRESSED: Fixed**
 
 Fig. 4: 'shown as a filled histogram.' Aren't all backgrounds
   shown as filled histos?
 
 Fig. 4: Perhaps it would be better to show this in log-y scale
  so one can see better the effect of the new physics at large m_T values.
+
+**ADDRESSED: Added parameters with more pronounced excess at high mT**
 
 Table 4: when you give 2-sided confidence intervals, I would prefer to call them confidence
 intervals and not limits. Are you sure these are 95% C.L. and not 90% C.L.
@@ -1491,16 +1508,23 @@ Are you sure you take the 2d effect into account?
   Fig 4 does not count because the event selection for Higgs search is different.
 - Previous limits could be shown for comparison.
 
+**ADDRESSED: Added figure showing mT. Prefer not to clutter plot with previous limits.**
+
 l.410: 'CLs criterion' this is what the CMS Stat. Comm. suggests, method implies too much.
+
+**ADDRESSED: Fixed**
 
 >>>>>>>>> Section 11 <<<<<<<<<
 l.427: "extract the significance of EW WZ production" -> measure the signal strength of EW WZ production.
   Also quote the value actually measured here instead of only the significance
 
+**ADDRESSED: Fixed**
 
 ## Type A
 
 l.5: 'to the Higgs' - should this still say 'Higgs boson'?
+
+**ADDRESSED: Fixed**
 
 l.16: 'These interactions include WZ quartic couplings, as shown in Fig. 1 (a)'
   - this is repetitive as line 14 already state 'quartic WZ
