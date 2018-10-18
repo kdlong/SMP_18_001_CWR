@@ -10,6 +10,7 @@
 + [ Comments from DESY IR](#comments-from-desy-ir)
   + [Type B](#type-b)
   + [Type A](#type-a)
++ [ Comments from Sijin Qian](#comments-from-sijin-qian)
 
 # Comments from Albert de Roeck
 -----------------------------------------------------------------------------
@@ -1587,3 +1588,343 @@ Figure 6: The caption refers to (top) and (bottom) figures when the two plots ar
 Figure 6: exclusion -> upper
 
 **ADDRESSED: Fixed**
+
+
+# Comments from Sijin Qian
+
+It's nice to see this interesting paper having gone into the almost final stage. I have roughly read through the SMP-18-001-paper-v8.pdf, and would have some (large and small) questions and comments from a non-expert's point of view. I list them below, please make a note of it if any of them would be sound.
+
+In case that these comments would not be displayed well, a simple text file is attached with the identical content.
+
+This is the "Part-I" of my all comments, a few more items for the References Section shall be submitted soon later.
+
+Thank you and looking forward to hearing from you.
+
+-Sijin
+
+begin --------------------------
+In general
+
+(1) Throughout the paper (including in the Abstract, etc.), some "Higgs" should be followed by a word of "boson", e.g.
+
+(a) In the Abstract, the 9th line,
+
+"Constraints on charged Higgs production and on anomalous" --> "Constraints on charged Higgs boson production and on anomalous"
+
+Other places where the same addition should be made are
+
+L5, L220, L303, L401, and L408, etc.
+
+(b) L7 and L33, at two places, the problem can be solved by swapping "Higgs" with another word, i.e.
+
+L7: "to include interactions with the Higgs and vector bosons," --> "to include interactions with the vector and Higgs bosons,
+
+L33: "additional Higgs or scalar bosons [8]," --> "additional scalar or Higgs bosons [8],"
+
+(2) Throughout the paper (including in the subscripts, Tables and Figure captions, etc.), to be consistent with many good examples in this paper (e.g. L19-23, L28 and L30, etc.), the font of "j" for jets should be changed from
+
+"j(italic)" --> "j(non-italic)"
+
+e.g. L215: "a dijet mass mjj(italic) > 500 GeV and a pseudorapidity separation" --> "a dijet mass mjj(non-italic) > 500 GeV and a pseudorapidity separation"
+
+Other places where the same change should be made are
+
+L216 (four places), Table 1 (the header column and the last row and two rows above, three places), L236-237 (three places), Table 2 (the header row and the 2nd column), L330, and Fig.3's caption (the 3rd line, two places), etc.
+
+Pages 1-6
+
+(3) L2-3, L22, L27, L44, L92, L110, L131 and L164, as well as L43 and L144. The "H", "QCD", "eta", "pT", "NLO", "NNLO", "PF" and "CSVv2" should be explained on L2-3, L22, L27, L44, L93, L110, L131 and L164, respectively; instead of L43 and L144 for "eta" and "pT", i.e.
+
+(a) L2-3: "(SM) Higgs boson by the ATLAS and CMS collaborations [1, 2] ..." --> "(SM) Higgs boson (H) by the ATLAS and CMS collaborations [1, 2] ..."
+
+(b) L22: "via QCD radiation of partons from ..." --> "via quantum chromodynamics (QCD) radiation of partons from ..."
+
+(c) L27: "at high pseudorapidity with large dijet system invariant mass." --> "at high pseudorapidity (eta) with large dijet system invariant mass."
+
+Then, L43 can be shortened correspondingly from
+
+"extend the pseudorapidity eta coverage provided by the barrel and" --> "extend the eta coverage provided by the barrel and"
+
+(d) L48: "with 1 < pT < 10 GeV and ..." --> "with transverse momentum 1 < pT < 10 GeV and ..."
+
+Then, L144 can be shortened correspondingly from
+
+"transverse momentum, pT, and ..." --> "pT and ..."
+
+(e) L92: "with an NLO sample from ..." --> "with a next-to-LO (NLO) sample from ..."
+
+(f) L110: "calculated at next-to-next-to-leading order for ..." --> "calculated at next-to-NLO (NNLO) for ..."
+
+(g) L131: "using a particle-flow algorithm [39] that reconstructs and identifies" --> "using a particle-flow (PF) algorithm [39] that reconstructs and identifies"
+
+(h) L164: (however, since the "CSVv2" has not been used afterward in whole paper, it can be simply spelled out; and as "b-tagging" plays a role of adjective, thus adding a hyphen is allowed)
+
+"the CSVv2 b tagging algorithm [45] ..." --> "the Combined-Secondary-Vertex-version2 b-tagging algorithm [45]
+
+(4) L6 and Fig.1's caption (the 1st line). Since the "BSM" has been used for only one time in the caption of Fig.1, it may not be necessary to be introduced on L6, i.e.
+
+(a) L6: "Physics beyond the standard model (BSM) in the electroweak (EW)" --> "Physics beyond the SM in the electroweak (EW)"
+
+(b) Fig.1's caption, the 1st line can be correspondingly changed from
+
+"in the SM and BSM." --> "in the SM and beyond the SM." or "in the SM and beyond it." or "in the SM and beyond."
+
+(5) L11 and L36, the "collaboration" and "Fig." should be plural, i.e.
+
+(a) L11: "by the CMS and ATLAS collaboration at 7, 8 and 13 TeV [3–6]," --> "by the CMS and ATLAS collaborations at 7, 8 and 13 TeV [3–6]," or "by the CMS and ATLAS Collaborations at 7, 8 and 13 TeV [3–6],"
+
+(b) L36: "shown in Fig.1 (c) and (d)," --> "shown in Figs.1 (c) and (d),"
+
+(6) Between L37-38, at the end of Introduction Section, normally it has a paragraph to briefly introduce each of other Sections in the paper, e.g.
+
+"In this paper, Section 2 is ...; Section 3 ...; ... are described in Section 4; ...; a Summary is in Section 11".
+
+This paper seems missing this paragraph yet, please consider whether it would be proper to add one.
+
+(7) L46, L50, L54, L61-62, L67, L99, L135, two lines below L166, L167-169, L171, L213 and L219. These lines can be shortened from
+
+(a) L46, L50 and L54: (three places)
+
+"the pseudorapidity range |eta| < ..." --> "the range |eta| < ..."
+
+(b) L61-62: (also as the numerical values of the angle phi have been explicitly shown here, etc. and an angle can be measured in either the radians or degrees; therefore, the unit of phi should be specified)
+
+"have widths of 0.087 in pseudorapidity and 0.087 in azimuth (phi)." --> "have widths of 0.087 in eta and 0.087 radians in azimuth (phi)."
+
+(c) L67: (as the "CAL"s are already implying the "calorimeter", also I'm not sure whether the "and" should be changed to "or", then "are" --> "is")
+
+"when the ECAL and HCAL calorimeters alone are used." --> "when the ECAL or HCAL alone is used."
+
+(d) L99, L171 and L213: (three places)
+
+"transverse momentum" --> "pT"
+
+(e) L135: (due to the item (3g) above)
+
+"particle-flow objects in an event." --> "PF objects in an event."
+
+(f) two lines below L166: (two places)
+
+"is defined relative to their transverse momentum pTl by summing over the transverse momenta of charged hadrons and neutral particles within" -->
+
+"is defined relative to their pTl by summing over the pT of charged hadrons and neutral particles within"
+
+(g) L167-169: (two places)
+
+"is the scalar sum of the transverse momenta of charged hadrons originating from the primary vertex. The Sigma(pTneutral) and Sigma(pTgamma) are the scalar sums of the transverse momenta for neutral hadrons and photons, respectively." -->
+
+"is the scalar pT sum of charged hadrons originating from the primary vertex; the Sigma(pTneutral) and Sigma(pTgamma) are the scalar pT sums for neutral hadrons and photons, respectively."
+
+"is the scalar pT sum of charged hadrons originating from the primary vertex; the Sigma(pTneutral) and Sigma(pTgamma) are for neutral hadrons and photons, respectively."
+
+(h) L219: (as the "pTjet" has been introduced on L173)
+
+"a lower requirement on the jet transverse momenta, pT > 30 GeV, is used ..." --> "a lower requirement on the pTjet, > 30 GeV, is used ..."
+
+(8) L151, it may sound better if a comma is added, i.e.
+
+"For each lepton track the distance of closest approach to ..." --> "For each lepton track, the distance of closest approach to ..."
+
+(9) L152 and L178, two values in a pair may should have the same number of digits after the decimal point, i.e.
+
+(a) L152: "to be less than 0.05 (0.1) cm for electrons in the barrel (endcap) region" --> "to be less than 0.05 (0.10) cm for electrons in the barrel (endcap) region
+
+(b) L178: "if Ie < 0.0361 (0.094) for the barrel (endcap) region," --> "if Ie < 0.0361 (0.0940) for the barrel (endcap) region," or "if Ie < 0.036 (0.094) for the barrel (endcap) region,
+
+(10) Table 1
+
+(a) In the header row, the 2nd word in each column may should be in the lower case (also, I'm not sure whether a "boson" should be added in the 2nd column after the "Higgs"), i.e.
+
+"Electroweak Signal | Higgs Signal | Tight Fiducial | Loose Fiducial" --> "Electroweak signal | Higgs boson signal| Tight fiducial | Loose fiducial"
+
+(b) In the header column
+
+(i) the 5th row, to be consistent in this paper (e.g. L140, etc.) and with all other CMS papers, the font of electron "e" should be changed from
+
+"eta(e(italic))" --> "eta(e(non-italic))"
+
+(ii) the 6th and 15th rows, the variables "mZPDG" and "nb-jet" seem have not been used anywhere else in this paper yet. If so, they should be explained in the caption.
+
+Pages 7-15
+
+(11) L229, I'm not sure whether an article word of "a" should be added and whether the "component" should be plural, i.e.
+
+"has both a prompt and nonprompt component," --> "has both a prompt and a nonprompt components,"
+
+(12) L234, the article word should be changed from
+
+"in a EW signal selection" --> "in an EW signal selection"
+
+(13) L246, L254-255 (two places) and L302. To be consistent with some good examples (e.g. L86, L102 and L227, etc.), two extra spaces before and after the symbol "+" in the expressions of "Z + jet" should be removed, i.e. (at four places)
+
+"Z + jet" --> "Z+jet"
+
+(14) L268-269 and L311-315, those uncertainties percentages (e.g. 9%, 5%, 5-25% and 1-3%, etc.) may should cite some reference papers, so that readers would not wonder why these percentages are chosen, why not any other arbitrary percentage numbers.
+
+(15) L276, a reference should be given to the "FxFx", i.e.
+
+"obtained with the FxFx merged sample," --> "obtained with the FxFx [xx] merged sample,"
+
+(16) L284, I'm not sure whether the "RIVET framework" should have a Ref. in the text in addition to in the Table 1's caption, i.e.
+
+"described in Section 3 using the RIVET framework." --> "described in Section 3 using the RIVET framework [49]."
+
+(17) L288, there are two "EW WZ" in this sentence, I'm not sure whether the 2nd one can be replaced by an alternative, e.g.
+
+"uncertainty on the EW WZ prediction in the EW WZ signal significance measurement." --> "uncertainty on the EW WZ prediction in its signal significance measurement."
+
+(18) L306-307, the 3rd line below L365, L372, L381, L384, L410 and L428. These lines can be shortened from
+
+(a) L306-307: (as the "muR" and "muF" have been introduced on L98)
+
+"by varying the renormalization and factorization scales by ..." --> "by varying the muR and muF by ..."
+
+(b) the 3rd line below L365:
+
+"for electroweak WZ production" --> "for EW WZ production"
+
+(c) L372: (as the "EFT" has not been used afterward in whole paper)
+
+"(EFT) approach [57]." --> "approach [57]."
+
+(d) L381: "from the missing transverse momentum vector and the" --> "from the pmissT vector and the"
+
+(e) L384: "The transverse mass for events satisfying ..." --> "The mT for events satisfying ..." "The mT of events satisfying ..."
+
+(f) L410: (as the "CL" has been introduced on L389)
+
+"at 95% confidence level using the CLs method." --> "at 95% CL using the CLs method.
+
+(g) L428: "These are the first results for electroweak WZ" --> "These are the first results for EW WZ"
+
+(19) L322-323 and L401, to be consistent with all other Section titles in this paper, the non-leading words of Sections titles should be in the lower case, i.e.
+
+(a) L322-323: "8 Fiducial Cross Section Measurement and Search for EW WZ Production" --> "8 Fiducial cross section measurement and search for EW WZ production"
+
+(b) L401: (together with the item (1a) above for adding a "boson")
+
+"10 Limits on Charged Higgs Production" --> "10 Limits on charged Higgs boson production"
+
+(20) Figs.2-4
+
+(a) In the legends of Fig.2, the last lines, the 2nd word should be in the lower case, i.e.
+
+"Stat. Unc." --> "Stat. unc."
+
+(b) Figs.2-4, in the vertical axis of lower panel of each plot, in the axis scale numbers "0.5, 1 and 1.5", the middle one may should be changed from
+
+"1" --> "1.0"
+
+In such a way, the captions of Fig.2 (the 8th line) and Fig.3 (the 7th line) shall be less confusion if to change from
+
+"the shaded band at 1 represents the" --> "the shaded band at 1.0 represents the"
+
+(c) Fig.2a, the horizontal axis label, to be consistent in this paper, the hyphen in the "Di-jet" should be removed, and the 2nd word should be in the lower case, i.e.
+
+"Di-jet Mass [GeV]" --> "Dijet mass [GeV]"
+
+(d) Fig.4
+
+(i) in the legend, the 8-10th lines, each equation condition should be separated by a comma, i.e.
+
+"FS0 = 32 FS1 = 16 TeV-4 FT0 = 0 FT1 = 0 FT2 = -1 TeV-4 FM0 = 4 FM1 = -8 TeV-4 " -->
+
+"FS0 = 32, FS1 = 16 TeV-4 FT0 = 0, FT1 = 0, FT2 = -1 TeV-4 FM0 = 4, FM1 = -8 TeV-4
+
+(ii) in the caption, the last line may be shortened from
+
+"events with transverse mass greater than 2000 GeV." --> "events with mT > 2000 GeV."
+
+(21) L363, the line above Eq.(3) and the left-handed side of Eq.(3). To be consistent in this paper, the font of subscript "EW" in "muEW" should be changed from (at four places)
+
+"muEW(italic)" --> "muEW(non-italic)"
+
+(22) The 2nd line below L365, to be consistent with all other CMS papers, the font of "p" in the "p-value" should be changed from
+
+"p(non-italic)-value" --> "p(italic)-value"
+
+(23) Table 3, in the header row and in the header column, the 2nd words should be in the lower case, i.e.
+
+(a) the header row: (and the right-most column)
+
+"Total Yield" --> "Total yield"
+
+(b) the header column: (and the 2nd row above the last row)
+
+"Pred. Background" --> "Pred. background"
+
+(24) Eq.(4), the right-handed side, to be consistent in this paper,
+
+(a) the subscript "T" in the "ET" should be changed from (at two places)
+
+"ET(italic)" --> "ET(non-italic)"
+
+(b) the font of "p" in "pT" should be changed from (at two places)
+
+"p(non-italic)T" --> "p(italic)T"
+
+(25) L383, a letter of "l" is missing in the 1st word of this line and should be added, i.e.
+
+"formuation fOi is a dimensionless coupling to ..." --> "formulation fOi is a dimensionless coupling to
+
+(26) Fig.8, in the caption, the 1st line, from the plots, one more percentage may should be added at the end of line, i.e.
+
+"and expected 68 and 95%" --> "and expected 68, 95 and 99%"
+
+(27) L425-426, per the guidelines of CMS PubComm, some acronyms or variables (i.e. "EW" and "SM", etc.) should be explained at their 1st appearances in the Summary Section, i.e. (two places)
+
+"contributions from electroweak WZ production is ... consistent with the SM prediction." --> "contributions from electroweak (EW) WZ production is ... consistent with the Standard Model (SM) prediction."
+
+(28) Fig.6, in the caption
+
+(a) The 2nd line, to be consistent in this paper, the font of "H" should be changed at three places and the "BR" should be shortened as well as its font is changed, i.e.
+
+"sigma(H(italic)+)x BR(italic)(H(italic)+ -> WZ) as a function of m(H(italic)+)" -->
+
+"sigma(H(non-italic)+)x B(special font as L416)(H(non-italic)+ -> WZ) as a function of m(H(non-italic)+)"
+
+(b) The 2nd-3rd lines, I could not figure out what the position indicators "top" and "bottom" are referring yet. There seems no two plots being placed vertically. If it would be the case, to be distinguishable from the "top" and "bottom" quarks, the position indicators should be changed from
+
+"top" --> "upper"
+
+and
+
+"bottom" --> "lower"
+
+Pages 16-20, in the References Section
+
+Pages 16-20, in the References Section
+
+(29) L451, in [5], to be consistent in this Section, the extra brackets under the sqrt symbol at the end of article title should be removed, i.e.
+
+"sqrt((s)) = 13 TeV" --> "sqrt(s) = 13 TeV"
+
+(30) L527, in [18], the 4th word in the article title should be in the lower case, i.e. "SHERPA 1.a: A Proof of concept version" --> "SHERPA 1.a: A proof of concept version"
+
+Another one which also needs to be changed similarly is [53] (for two words of "higgs" and "Summer", from (on L611)
+
+"LHC higgs boson search combination in Summer 2011" --> "LHC Higgs boson search combination in summer 2011"
+
+(31) L540, in [23], the beam energy value is missing at the end of article title? I.e.
+
+"= TeV”," --> "= ??? TeV”,"
+
+(32) The "year" number should be given for Ref.[34]. If there would be problems to display the year number with the default bib file, it may be fixed by changing from "article" to "unpublished" in the bib file.
+
+(33) L573, in [37], it may be looked nicer if two spaces are added before and after the symbol "--" in the article title, i.e.
+
+"GEANT4—a simulation toolkit" --> "GEANT4 — a simulation toolkit"
+
+(34) Refs.[40] and [42] are identical, thus Ref.[42] should be removed since the subscript of "kt" in its article title is inconsistent with L155.
+
+Another pair of Refs. which also needs to be changed similarly is [55] and [60], that the Ref.[60] should be removed since it has some extra words in the journal name.
+
+(35) L616, in [55], to be consistent in this paper (e.g. L390 and L410, etc.), the "CL(s)" in the article title may should be changed from
+
+"CL(s)" --> "CLs(subscript)"
+
+(36) L621, in [56], to be consistent in this Section, the Erratum should be changed from "[Erratum: Eur. Phys. J.C73,2501(2013)]." --> "[Erratum: Eur. Phys. J. C 73 (2013) 2501]."
+
+(37) L623, in [57], to be consistent in this Section, the 1st word of the journal name can be abbreviated, i.e.
+
+"Annals Phys. 335 (2013) 21," --> "Ann. Phys. 335 (2013) 21,"
