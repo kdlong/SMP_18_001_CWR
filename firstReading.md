@@ -55,7 +55,7 @@ section. Added clarification in text.
 Details
 - line 4 Sloppy: Higgs mechanism -&gt; BEH or Brout-Englert-Higgs mechanism
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 84: "...initial state bs not included": is that an issue for the analysis?
    How does it affective analysis, if at all?
@@ -71,7 +71,7 @@ The merging scale was studied, and is subleading with respect to MC uncertaintie
 explicitly considered. We include the scale based on previous suggestions to have it 
 there.
 
-**ADDRESSED: Removed
+**Removed
 
 - line 92: This looks a bit strange: comparing a NLO with a LO prediction to assess
     the modelling uncertainty. What did you check and what did you conclude?
@@ -94,7 +94,7 @@ point, so we present the comparison itself without an excess of technical detail
 
 - line 98 "with THE dynamic"
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 103 "...for identical configurations" What do you mean here? Event topologies?
     Please say exactly what is meant.
@@ -103,18 +103,18 @@ point, so we present the comparison itself without an excess of technical detail
 
 - line 104: I recommend to start this paragraph with a list the main backgrounds
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 110-111 "k-Factors" -&gt; K-factors" as most generally used.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 129: "27 pile -up interactions". Possibly the correct number but in recent
     CWR papers I have seen everything between 20 to 27 pile-up numbers quoted  for the
     same data set. I recommend to put the '27' only if this is the agreed number upon
     for all our papers on 2016 data set analyses.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - section 4: We should also say very briefly how we reconstruct neutral hadrons and
    photons with the PF algorithm as we eg use these in the isolation requirements.
@@ -133,27 +133,27 @@ REFORMAT
    between barrel and endcap in the ECAL, correct? Do we control the data/MC difference of the
    efficiency there well enough?
 
-**ADDRESSED: Yep that's how the EGamma central ideas are done**
+**Yep that's how the EGamma central ideas are done**
 
 - line 209: affect -&gt; effect
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 217 -2.5   The 'minus' is a bit poor. Maybe put &minus; or give |eta|&lt; 2.5
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 248: See line 135:  in this paper we define and use pTMiss and NOT ETmiss!
     Also this has become the common practice in all our papers.
     However as of here we start using ETMiss in the text. Please change all these to
     pTMiss.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 267-269. Not easy to understand for the reader as the introduction to 2D
    comes only later in the paper.
 
-**ADDRESSED: Reworded**
+**Reworded**
 
 - line 276: FxFx merging is typically used for NLO samples (dono if it
    works also consistently with LO generations), rather than for LO samples
@@ -166,12 +166,12 @@ Comment: See previous response above. Rewrote in a hopefully more clear fashion.
 - line 279: "generally seen to be within..." Is that an observation you made with
    studies in this analysis? Then I would rather say "generally found to be within..."   
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - line 282: so what do we use this sample for? Do we find that the POWHEG agrees with the
     MC studies that we use? We should say something here.
 
-**ADDRESSED: Added more detail**
+**Added more detail**
 
 - line 286: "for fixed and dynamic scale". Say here what scale you mean.
 
@@ -236,7 +236,7 @@ L170-179  The pileup is treated quite differently for electrons and muons in det
 
 L208   Please add a sentence about what problem is generated in the theoretic calculation by collinear emission of same flavor opposite sign dileptons or a reference to a discussion of the problem.
 
-**ADDRESSED: Change "due to problems" to "to avoid divergences from"**
+**Change "due to problems" to "to avoid divergences from"**
 
 L245 and 251  The tight to loose “transfer factors” that transfer background events into the signal region are quite mysterious.  Please add some information about what these are and how they are determined
 
@@ -285,11 +285,11 @@ PHYSICS COMMENTS:
 
 - L3: add the second standard reference ["long" paper] to the CMS Higgs boson discovery.
 
-**ADDRESSED: Added**
+**Added**
 
 - L13: Ref. [6] is the CMS paper; you must've meant Ref. [4].
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L16: there is only one particular quartic coupling you really probe here, WWZZ; please say so explicitly.
 
@@ -297,7 +297,7 @@ PHYSICS COMMENTS:
 
 - Figure 1: in the diagrams (a), (c), (d), you should explicitly put W± and Z along the two bosons emitted by the quarks. If you put W± on top, the lower outgoing quark should be the same as the corresponding incoming quark, but it must be changed to an antiquark q¯ in order to conserve electric charge. Since the two incoming quarks do not have to be of the same type, suggest labeling the upper two quarks as q' and q", while keeping the two at the bottom as q. The diagram (b) as shown, violates electric charge conservation; you should replace q¯ with q¯&#8242; and also mark the internal quark lines as q, q', q¯&#8242; (top to bottom).
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - LL26-31: this paragraph really breaks the flow of the text; suggest moving it after the one ending on L37.
 
@@ -311,7 +311,7 @@ PHYSICS COMMENTS:
 
 - L86: give the order of simulations with Sherpa: 18], at LO, and with fixed-order [note a hyphen!] calculations ... [Finally, give MoCaNLO+Recola version number here.]
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - LL89-90: the description is very confusing. By "up to three outgoing partons at Born level" do you mean "up to one additional parton" [as W and Z are two outgoing partons], or do you really mean up to three additional jets emitted in addition to two gluon jets? You really should be talking about "additional partons" compared to the Born-level diagram in Fig. 1 (b) to avoid confusion: "... simulated at LO with up to ? additional partons included in the matrix element calculations with ...".
 
@@ -323,39 +323,39 @@ PHYSICS COMMENTS:
 
 - LL110,111: first of all drop "scaling" in both places, as "factor" implies "scaling"; second, per CMS Style, the correct usage is "K factor", so the two lines in question should say, respectively, "(K factor of 1.1)" and "(K factor of 1.7)".
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L121: since a single version fo Sherpa is used, drop the version here.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L129: the average pileup in 2016 data was 23, not 27. The number 27 is from online plots, which are made assuming different total inelastic cross section as used in the offline measurement.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - LL131-132: as powerful as it is, the PF algorithm can't really reconstruct "each individual particle" in an event; please switch to the current PubComm-recommended: "... (PF) algorithm [39] that aims to reconstruct and identify each individual particle in an event with ...".
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L166: ... for light-quark and gluon jets.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L173: since you use "j" to denote a jet, use: "... pjT/Aj for all pileup kets in an event."
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L204: m&#8467;&#8467; should really be m&#8467;&#8242;&#8467;&#8242; throughout the paper, as you defined &#8467;&#8242; as the leptons front he Z boson decay.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L215 and multiple further places in the text: since you [correctly] use Roman "j" to denote jet starting on L20, you should use Roman "j" in all subsequent places in the paper, e.g., mjj, &#951;j1, etc. There are too many occurrences of this, which you should replace using context search throughout the paper.
 
-**ADDRESSED: Hopefully fixed most occurrences. To double check**
+**Hopefully fixed most occurrences. To double check**
 
 - Table 1: the variables used in the first column often have not been introduced or have been called differently. In particular, suggest using p&#8467;&#8242;1T, p&#8467;&#8242;2T, p&#8467;T for the first three entries, |&#951;&#956;| and |&#951;e| [note Roman "e"] for the following two; |m&#8467;&#8242;&#8467;&#8242;&#8722;mZ| for the next one; m&#8467;&#8467; should read m&#8467;&#8242;&#8467;&#8242;; |&#951;(j)| and pT(j) should be |&#951;j and pjT; finally, use nb&#8722;jet [hyphen, not an en-dash]. Furthermore, I have a question on the fiducial requirements: for some of the variables, namely p&#8467;&#8242;1T, &#951;&#956;, they are looser than the EW signal selection used to make the measurement. How can you define the fiducial volume that goes beyond the range of your selection? That defeats the purpose of fiducial cross section, which doesn't rely on simulation to extrapolate beyond the measurement phase space! I urge you to redefine the fiducial selections by replacing 2.5 with 2.4 on muon pseudorapiditiy and by tightening the loose fiducial selection on the first lepton pT from the Z boson decay to 25 GeV.
 
-**ADDRESSED: Fixed I hope**
+**Fixed I hope**
 **RESPONSE: In general the goal of the fiducial region is to reduce extrapolation. But a simpler definition is also preferred, and makes use of many theoretical tools (or comparisons with ATLAS much easier). Given that lepton pTs and rapidities are relatively insensitive to theoretical uncertainties, and because the uncertainty of the measurement is much higher than the extrapolation uncertainty this introduces, we prefer to keep the definition simplistic. 
 
 - LL268-269: the sentence is completely unintelligible. What is "2D discriminant", which has never been mentioned before? What is the range 5--25\%, given that in the very previous line you claim that this contribution is 9\%? What "It" refers to? Are you trying to say that while on average the QCD WZ process acceptance is 9\%, it varies between 5--25\% as a function of some variable? Then say so in plain English and define this variable properly! This sentence needs to be either removed or completely rewritten.
@@ -366,7 +366,7 @@ PHYSICS COMMENTS:
 
 - L273 and further in the text: the only QCD scale is &#923;QCD; what you call "QCD scales" are renormalization and factorization scales of the QCD RGE evolution, which goes beyond the level of details you need to give. Please either refer to them as "scale" or as "renormalization and factorization scales" and do not use "QCD". On this line, say: "uncertainties from the renormalization and factorization scale choice".
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - L273: you need to define the way PDF uncertainties are calculated not at the end of Section 7, but here, where it's first mentioned. You should also cite PDF4LHC Run 2 recommendations when you talk about NNPDF replicas.
 
@@ -384,21 +384,21 @@ PHYSICS COMMENTS:
 
 - L325: the sentence sounds funny: why would one measure the cross section by fitting the expected event yield? This is a closure test, not a measurement. Please, drop "and expected".
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - LL329,335,341,346-347,362,368: since several versions of MadGraph5_aMC@NLO are used in the analysis, it would be good to remind a reader which versions were used to obtain these predictions.
 
 - L340: I think you meant to say: "The acceptance increase from the tight to loose ..."
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 - Figure 2: use "Dijet mass [GeV]" as the x axis caption on the left plot, to match the text; also remove the (a) and (b) labels below the figure.
 
-**ADDRESSED: Will be fixed in next iteration of plots**
+**Will be fixed in next iteration of plots**
 
 - LL363, 365+4, and Eq. (3): use the same terminology, &#956;WZjj, here, as introduced on L330.
 
-**ADDRESSED: These are different quantities, so the different notation is needed**
+**These are different quantities, so the different notation is needed**
 
 - L375: ...  charge conjugation and parity conserving ...
 
@@ -731,19 +731,19 @@ Fig. 3 caption, L1: The one-dimensional representation of the 2D distribution of
 
 L365+2: local p value;
 
-**ADDRESSED: p-value appears much more commonly in other publications**
+**p-value appears much more commonly in other publications**
 
 L366: uncertainty in the &#956;WZjj measurement;
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Table 3 caption, L1: Post-fit event yields;
 
-**ADDRESSED: Postfit is the term I see in the literature. Can you provide a reference to a recommendation?**
+**Postfit is the term I see in the literature. Can you provide a reference to a recommendation?**
 
 Table 3 body, header line: Total yield; first column: Pred. background; EW WZ signal;
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Limits on anomalous quartic gauge couplings:
 
@@ -757,7 +757,7 @@ L378: mixture of gauge and Higgs field interactions;
 
 L383: coupling for the operator;
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 L387: coupling value, a parabolic;
 
@@ -765,7 +765,7 @@ L387: coupling value, a parabolic;
 
 LL390-391: put commas around "except for the coupling being probed";
 
-**ADDRESSED: This seems an optional style comment to me**
+**This seems an optional style comment to me**
 
 Fig. 4 caption, L2: on the anomalous coupling parameters.
 
@@ -847,7 +847,7 @@ L74, 94, 187, 310, 316: You should write “Monte Carlo simulation” or “MC s
 
 L83: MadSpin needs a reference. Please check if this one is the latest: “P. Artoisenet, R. Frederix, O. Mattelaer, and R. Rietkerk, “Automatic spin-entangled decays of heavy resonances in Monte Carlo simulations”, JHEP 03 (2013) 015, doi:10.1007/JHEP03(2013)015, arXiv:1212.3460.”
 
-**ADDRESSED: Added**
+**Added**
 
 L98: You haven’t yet defined “\pt” as the transverse momentum.
 
@@ -881,19 +881,19 @@ Figure 3: most of the error bars in the ratio are off-scale, and in some bins th
 
 L33: Parallel construction — "or suggest" —> "or"; otherwise "or it could suggest", etc
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 L166+: Line numbers are missing for this paragraph.
 
 L339: Should be “defined in Table 1 following Ref. [19]”.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 L365+: Line numbers missing.
 
 L426: “SM” needs to be redefined in the Summary section.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
  
 # Comments from Kyungpook National University IR
@@ -909,7 +909,7 @@ L17 : Vector boson scattering processes form a distinct experimental signature
 
 -> VBS processes form a distinct experimental signature
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 L34-36 : please rearrange the sentence according to the figures, i.e.,
 
@@ -919,49 +919,49 @@ in terms of...., shown in Fig. 1 (c) and (d), -> in the generalized framework of
 
 L48 : define pT here because of it appear for the first time, e.g.,
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 with 1 < pT < 10 GeV -> with the transverse momentum pT range of 1-10 GeV
 
 (if so, L143-144: the transverse momentum, pT -> pT)
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 L73 : remove the symbol ' at the end
 
-**ADDRESSED: Fixed** 
+**Fixed** 
  
 L92 : "NLO" -> "next-to-LO (NLO)“
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 L110 : "next-to-next-to-leading order" -> "next-to-NLO" or "next-to-NLO (NNLO)“
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 L155 : "PF" was not defined. so "particle-flow" -> "particle-flow (PF)" in L131.
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 L164 : its decay to b quarks -> its decay to b quark
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 Eq.1 : change comma to a period
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 Eq.3 : add a period
 
-**ADDRESSED: Fixed** 
+**Fixed** 
 
 L248, L314 : "E^{miss}_{T}" -> "p^{miss}_{T}“
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 L330 ~ L332, L363 ~ L366 and other places : Throughout this paper, "signal strength modifier" and "signal strength" are used to refer mu. If the two are same meaning, please select one.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 L351 : "The ratio of EW to QCD-induced production of WZjj grows .... in Fig.2 ... " There is no this ratio histogram in Fig.2. This sentence and Fig.2 doesn't match.
 
@@ -969,15 +969,15 @@ L351 : "The ratio of EW to QCD-induced production of WZjj grows .... in Fig.2 ..
 
 L372 : remove "(EFT)“
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Figure 5. : This figure has 99% CL curve, but there is no explanation in the text nor in the caption.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Figure 6. : (top) --> left , (bottom) --> right
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 ** Type B comments
 
@@ -997,16 +997,16 @@ L94 : specify a version and add a reference for POWHEG (one listed in L108?)
 
 L127-129 : Can you put a reference for the average of number of pileup?
 
-**ADDRESSED: We are not aware of an appropriate reference, though the number has been corrected**   
+**We are not aware of an appropriate reference, though the number has been corrected**   
 
 L155 : with R = 0.4 -> with a distance parameter of 0.4
 
  
-**ADDRESSED: Fixed**
+**Fixed**
 
 L157 : define deltaR here (instead of defining in L166-167)
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 L212-220 : you consider the two leading pT jets and look for them passing the other Mjj and deta selections.
 
@@ -1016,7 +1016,7 @@ Another question is what happens if you perform all possible dijet pairs with pT
 
 Can you choose the one with the highest value of m(jj) and compare to your results in this case?
 
-**ADDRESSED: Studies were made of such optimizations when the analysis was first developed. The number of events with multiple pairs of jets with mjj > 100 **
+**Studies were made of such optimizations when the analysis was first developed. The number of events with multiple pairs of jets with mjj > 100 **
 
 Same questions to the Higgs signal selection.
 
@@ -1055,7 +1055,7 @@ We have only minor suggestions:
 
 line 144 : too many commas : it's difficult to read . Better "transverse momentu pt and eta and on a categorization
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 line 148 : "minimal quality requirements" would it be possible to have a ref where "minimal" is defined ?
 
@@ -1063,7 +1063,7 @@ line 148 : "minimal quality requirements" would it be possible to have a ref whe
 
 line 198-199 : " if more then one combination is possible" your choice doesn't make any bias on the sample? (It may be better to say how many cases they are)
 
-**ADDRESSED: It does slightly skew the Z mass shape but it does not bias the signal vs. background and is the typical choice in other analyses. Added a clarification that there are at most two combinations, in the eee and mmm channels.**
+**It does slightly skew the Z mass shape but it does not bias the signal vs. background and is the typical choice in other analyses. Added a clarification that there are at most two combinations, in the eee and mmm channels.**
 
 line 284 : it could be better , if possible, to insert a ref. on RIVET ?
 
@@ -1126,7 +1126,7 @@ Title:
   Reason: it seems that the WZjj measurement is the main result of
   this paper and not the electroweak WZ production
 
-**ADDRESSED: The WZjj is measured in a reason sensitive to EW WZ production,
+**The WZjj is measured in a reason sensitive to EW WZ production,
 and it is this process that drives the nature of this analysis. We do not 
 feel it the slight downward fluctuation of our observation necessitates 
 reformulating the paper.**
@@ -1144,9 +1144,11 @@ Abstract:
 Fig.1: , is the diagram (a) really correct, isn't one of the q
   quarks ending as q and not q'?
 
-**ADDRESSED: Added more explicit labeling**
+**Added more explicit labeling**
 
 l.26: What do the authors mean by "moderate missing transverse momentum"
+
+**Removed "moderate"**
 
 l.28: 'These kinematic selections are used to distinguish the EW.. from
   ..QCD-induced process, which is considered as background'
@@ -1160,7 +1162,7 @@ l.28: 'These kinematic selections are used to distinguish the EW.. from
 l.54-60: the detailed discussion of the muon system vs. eta and track pt resolutions.. where is
   this later relevant?
 
-**ADDRESSED: Shortened CMS detector description**
+**Shortened CMS detector description**
 
 >>>>>>>>> Section 3 <<<<<<<<
  - The labels LO, NLO and NNLO are used extensively throughout this section,
@@ -1171,24 +1173,24 @@ l.54-60: the detailed discussion of the muon system vs. eta and track pt resolut
    -> In general, clearly specify for each "XLO" label whether you refer
       to EW or to QCD.
 
-**ADDRESSED: The name MadGraph5_aMC@NLO is the full name of the generator, which admittedly
+**The name MadGraph5_aMC@NLO is the full name of the generator, which admittedly
 leads to awkward phrasing when it's used at LO. In all cases we mean LO/NLO/NNLO in QCD,
 which should be clear by the definition of the acronyms.**
 
 l.81: 'resonant W boson propagator', perhaps a stupid question, but could there be
   also a 'resonant Z boson propagator'
 
-**ADDRESSED: Yes, Z can be on or off-shell and can include gamma.* The important point is that the W must be resonant, and it is decayed with MadSpin. This is done to reduce the complexity of the generation.**
+**Yes, Z can be on or off-shell and can include gamma.* The important point is that the W must be resonant, and it is decayed with MadSpin. This is done to reduce the complexity of the generation.**
 
 l.84: 'Contributions with an initial state b quark are not included'
   Weird, why not?
   Please motivate.
 
-**ADDRESSED: They are treated as background as part of the  tZq process. This has been clarified.**
+**They are treated as background as part of the  tZq process. This has been clarified.**
 
 l.91: why does one need to merge different jet multiplicities?
 
-**ADDRESSED: Having a ME description of the n+1j process is always preferable for
+**Having a ME description of the n+1j process is always preferable for
 a description of n-jet kinematics**
 
 l.96:, how can the diagrams in Fig.1 (a) and (b) interfere, they have
@@ -1196,13 +1198,13 @@ l.96:, how can the diagrams in Fig.1 (a) and (b) interfere, they have
   Please give the reader an idea about the graphs which do interfere
   (citation?)
 
-**ADDRESSED: Interference in this context refers to the $\alpha^3\alpha_{s}$ contribution to the process,
+**Interference in this context refers to the $\alpha^3\alpha_{s}$ contribution to the process,
 which arises through the mix of diagrams not shown here. This has been clarified.**
 
 l.106: why use four-flavour scheme and scale to five-flavour scheme,
   why not using five-flavour scheme from the start?
 
-**ADDRESSED: Studies, such as the one referenced, have demonstrated that at NLO, 
+**Studies, such as the one referenced, have demonstrated that at NLO, 
 the b jet kinematics are best at higher orders are best reproduced by
 4 flavor calculations, whereas cross sections are best described with the 5 flavor scheme.**
 
@@ -1227,30 +1229,30 @@ l.121: --> 'For all simulations used in this analysis the NNPDF3.0 [36] set ...'
   Reason: Otherwise it sounds as if you are just referring to the sim. mentioned
   on top of p.4
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 >>>>>>>>> Section 4 <<<<<<<<<
 l.136-139: --> it is clear that charged tracks can be associated to a primary vertex candidate,
   but how can the associated pt_miss (as mentioned) and how can a jet be associated to a primary vertex?
   In particular the pt_miss I find confusing.
 
-**ADDRESSED: Updated to newer description from twiki. For the case of the primary vertex, the MET is defined using track jets associated to the primary vertex.**
+**Updated to newer description from twiki. For the case of the primary vertex, the MET is defined using track jets associated to the primary vertex.**
 
 l.180-188:, is the rather detailed listing of eff. vs eta so crucial?
 
-**ADDRESSED: No, removed**
+**No, removed**
 
 >>>>>>>>> Section 5 <<<<<<<<<
 l.204: "no b tagged jet with pT>30 GeV and |eta|<4.7"
    Can we do b tagging up to |eta|=4.7 ?
    Very misleading. Quote the actual btag range (2.4?) instead?
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 l.207: 'chosen for event generation efficiency'
   is this a good argument? Perhaps just omit.
 
-**ADDRESSED: Rephrased**
+**Rephrased**
 
 Table 1: content: is >20, >20 in the first two lines of the
   "loose fiducial" really intentional, or is it a typo?
@@ -1258,18 +1260,18 @@ Table 1: content: is >20, >20 in the first two lines of the
   If not a typo, specify why? (maybe compatibility with some external
   prediction?)
 
-**ADDRESSED: it is not a typo, but is done for comparisons to other predictions, as described in the text.**
+**it is not a typo, but is done for comparisons to other predictions, as described in the text.**
 
 Table 1: what you call the first two columns one could call the second
   and third column.. I think it is better to write 'in the columns labelled "EW Signal"
   and "Higgs signal"... indicated in the column "Higgs Signal" .
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Table 1: '.. applied to showered and hadronized events'  this sounds slang
 --> 'applied to showered and hadronised simulated events'
 
-**ADDRESSED: Rephrased**
+**Rephrased**
 
 >>>>>>>>> Section 6 <<<<<<<<<
 - It should be described how the EW WZ process is evaluated as background for the aQGC and Higgs analyses,
@@ -1277,20 +1279,20 @@ Table 1: '.. applied to showered and hadronized events'  this sounds slang
 
 l.227:  --> 'primarily ttbar and Z+jets'
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 l.229: 'the Z gamma process ...'
    You presumably mean 'the Z gamma(\*) process'?
    I had to reread this sentence several times before I understood its
    intended meaning.
 
-**ADDRESSED: Rephrased**
+**Rephrased**
 
 l.229-231:  Not clear. If I understood correctly one wants to say "... data-driven technique,
   except for the component of the Z&#947; process in which the photon experiences conversion into leptons in the tracker (non prompt).
   In such case, simulation is used.
 
-**ADDRESSED: Rephrased**
+**Rephrased**
 
 par l.233-240: for the measurement of WZjj the QCD WZ production is signal.
   Here you treat is as background and do a normalisation using control regions.
@@ -1299,7 +1301,11 @@ par l.233-240: for the measurement of WZjj the QCD WZ production is signal.
   when really it is a control region that is as close as possible to the EW signal selection, right?
   This could be clarified. In addition, it would probably  make sense to mention here already that this control region is included in the fit?
 
+**Clarified that this is not relevant to the WZjj measurement**
+
 l.234: How is background from simulation constrained by the data? Normalisation? Shape?
+
+**Clarified**
 
 l.241 in general when you use 'loose' selections as control regions
   which assumptions do you make on the composition of the event in
@@ -1308,8 +1314,12 @@ l.241 in general when you use 'loose' selections as control regions
   Don't the loose regions contain the events in the tight regions,
   so they are correlated?
 
+**The control regions are indepdendent**
+
 l.245: '"Tight-to-loose" transfer factors' isn't that '"Loose-to-tight'" transfer factors
  
+**Changed**
+
 par l.247-256: got completely lost here, find the description not understandable.
   you introduce many different samples: DY and ttbar, dijet events (l.251, how are they defined?)
   and Z+jet events.. in particular it is confusing that you start in l.247 with
@@ -1318,10 +1328,14 @@ par l.247-256: got completely lost here, find the description not understandable
 
 par l.257-263: again got lost here. What do you mean by 'fakeable object control regions'??
 
+**Rephrased**
+
 l.259: 'nonprompt background, ..with the normalisation per channel
   taken from the ratios measured in WZ plus two jet events.' Isn't that interfering
   with your signal extraction for WZjj?? Is there a short-circuit here in the method?
 
+**Clarified explanation. This procedure was used only in the case where
+differential predictions are needed, e.g. not in the case of the WZjj cross section measurement.**
 
 >>>>>>>>> Section 7 <<<<<<<<<
 - The theoretical uncertainties in the model dependent limits should also be discussed
@@ -1330,13 +1344,23 @@ l.266: start a new par at "The JES and JER ..."
   otherwise it looks like that this and the following sentences in the same paragraph should cover
   also the modeling uncertainties.
 
+**Rephrased**
+
 l.268: 'acceptance in', there is not 'acceptance into'
+
+**Fixed**
 
 l.269: 2D discriminant was not yet introduced.
 
+**Rephrased**
+
 l.270: 'The modelling uncertainty'
 
+**The paper will be submitted to a US journal, so we US spellings.**
+
 l.270: 'on the QCD WZ process' ??? it is not always background!
+
+**Rephrased**
 
 par l.270-282: it is really hard to follow the description
   of the model uncertainties, what enters finally as uncertainties
@@ -1354,15 +1378,32 @@ l.291-294: "Higher order EW corrections in VBS processes are known to be negativ
 par l.295-303: could there be some double counting
   of statistical uncertainties also counted as systematical uncertainties?
 
+**The comparisons in Z+jet and ttbar control regions are statistically independent from
+the loose ID control regions used to derive the nonprompt estimation. Its true that some component
+of the uncertainty in any comparison is statistical in nature, and in a sense this is double counted,
+but the effect is not signficant (perhaps there is a ~10% stat uncertainty in a region where 
+a max deviation of 30% is observed, and the difference between a 20% and 30% percent normalization
+uncertainty is negligible on the analysis results)
+
 l.308: what is a 'fit distribution'?
+
+**Rephrased**
 
 l.309: 'bin-by-bin' Why treating each bin as uncorrelated from the other here?
   Isn't that a fully bin-to-bin correlated sys. source?
 
+**The uncertainties are correlated across bins. Clarified.**
+
 l.310: is the uncertainty from the MC replica sets really a Gaussian uncertainty?
 how is the width of the gaussian defined?
 
+**Fixed: In general yes, though it can diverge from the Gaussian so we remove this statement.
+In practice we follow the procedure recommended in the PDF4LHC report, e.g., we 
+order the yields of the sets per bin and take the prediction of the set corresponding to the 68\% quantile.**
+
 Table 2: --> 'freezing the set of associated nusiance parameters'
+
+**Fixed*
 
 Table 2: how is the relative systematic uncertainty calculated? is it
   (nominal^2 - (uncert with set of NP's frozen)^2)/(nominal^2); sqrt(nominal^2-(uncert with set of NP's frozen^2))/nominal;
@@ -1372,29 +1413,66 @@ Table 2: how is the relative systematic uncertainty calculated? is it
   It would be more insightful to use the relative uncertainty on mu_EWK calculated
   in the same fashion as for the fiducial WZjj cross section measurement.
 
+
+**The relative uncertainty is considered sqrt(nominal^2-(uncert with set of NP's frozen^2))/nominal. For the 
+significance, the nuisance is frozen to its best-fit value. Because m_EW is quite small, and therefore 
+has a large dependence on the background uncertainties like the JES, we prefer to present the impact of the
+uncertainties on the significance of our measurement itself. However, we have decided to present the
+information in terms of a posteriori expected significance instead of observed significance, in order to give
+a more meaningful estimate of how the search would perform if the uncertainty were negilible.**
+
+
 l.321: 'uncertainty in the ... EW WZ significance measurement':
   there is no such thing as the measurement of a significance; the measurement is of the EW WZ signal strength,
   and after the measurement one can quantify the significance of the observed excess over the background-only expectation
   (hypothesis: no EW WZ production). Please rephrase
 
+**Rephrased**
 
 >>>>>>>>> Section 8 <<<<<<<<<
 - What is the aim to define a looser fiducial region? Should be explained.
+
+**For comparisons with theoretical calculations, as mentioned in the text**
+
 - On the maximum likelihood fit and confidence interval estimation in this and later
   sections we have several questions:
   - Do you use the Higgs combine tool? (for our internal knowledge)
+
+**Yes**
+
   - Do you use in general a likelihood based on Poisson statistics or gaussian approximation?
+
+**Poisson**
+
   - Do you take the MC stat. uncertainties of MC templates into account with
     the Barlow Beeston method? Do you use gaussian approximation for these unc.?
+
+**We have used both the Barlow Beeston method implemented in the autoStats feature of combine
+and cross-checked with using explicit nuisance parameters per process per bin. We find excellent
+agreement, so we prefer to describe the more straightforward approach.**
+
   - Do you apply template morphing for nuisance parameters? (use
     +- 1 sigma variations and nominal template for interpolation
     and extrapolation of dependence of template on nuisance parameter, as
     done in combine tool)
+
+**Yes**
+
   - What PDFs do you use for nuisance parameters such as JES: e.g. log-normaltype?
+
+**We use the implementation of combine, with lnN for normalization parameters and
+Gaussian for shapes. A sentence has been added clarifying this**
+
   - you seem to use the asymptotic (means large stat.) formulae from the Cowan paper [56].
     Are you sure these asymptotic formulae are valid? For some channels the stat.
     in some bins look close to zero events. Within the combine tool one can make cross
     checks using toy experiments.
+
+**Even if the stats in some bins are low, the total number of events in the analysis
+is not so small, and the asymptotic formulas are very much expected to be applicable.
+They have further been used and approved by physics coordination in other analyses 
+that are more statistically limited.**
+
   We would recommend to explicitly mention some of these things in the paper,
   for instance the types of PDFs for nuisance pars, to make the measurement
   reproduceable.
@@ -1406,23 +1484,40 @@ l.324-325: "The cross section for WZjj production is measured with a combined ma
   If the expected events yield have a statistical uncertainty than one is fitting
   the expected event yields to control data or to MC data (Barlow Beeston method). Is that what you are doing?
 
+**Rephrased**
+
 l.329: what are 'scaling nuisance parameters' this term seem to be not well defined.
+
+**Removed "scaling"**
 
 Fig. 2: the stacking of the white empty area for the EW-WZjj looks
   not so nice.
 
+**We feel this is appropriate for an unobserved SM process. The formatting has been
+slightly modified to make the error bars less distracting, however.**
+
 Fig. 2: the hatched band, labeled "Stat. Unc." is not explained in
   the caption
 
+**Rephrased**
+
 Fig. 2: 'The solid symbols' not sure if I understand what you mean here.
+
+**Rephrased**
 
 Fig. 2: last line, the normalisations are not shown. --> 'The predicted yields
   are shown with their pre-fit normalisations.' or similar
 
+**Fixed**
+
 l.353-355: "This motivates the use of ...for the extraction of the EW WZjj significance".
   Rephrase: for the measurement of the EW WZjj signal strength.
 
+**Fixed**
+
 l.357: Is a distribution fitted in this control region too, or is the control region included as a counting experiment?
+
+**As a counting experiment. Clarified**
 
 l.358: "The fit is performed independently for each channel"
   - if there are independent fits for each channel then for each channel a different muEWK should be quoted.
@@ -1432,13 +1527,22 @@ l.358: "The fit is performed independently for each channel"
 Fig. 3: Perhaps better to plot log-y scale, it is really hard to see in the linear y-scale
   the signal/background discrimination.
 
+**We prefer linear scale so the actual discrimination is clear. The uncertainty band has
+been made lighter and less distracting, however.**
+
 Fig. 3: 'The predictions are shown with using the Post-Fit values for their normalisations.'
+
+**Fixed**
 
 l.360-361: 1) It is not clear from this statement what those pdfs are. 2) what are the correlations
   between different sources of uncertainty? In CMS the correlation between different uncertainty sources, a priori,
   is usually either -100%, 0%, or 100%.
 
+**Added information**
+
 between line 365 and 366: re-order the significance and best-fit signal strength values.
+
+**Fixed**
 
 l.365-366: The claim of an excess of data events can be a bit misleading.
   Particularly when looking at mu_EW, I would say the background is a bit overestimated.
@@ -1452,6 +1556,8 @@ l.365-366: The claim of an excess of data events can be a bit misleading.
   and asymptotic formulae [56]. It is found to be ...
   [By the way: This has nothing to do with CLs (references).]
 
+**Fixed**
+
   Related comment: Equation (3): this is the fit result, is the uncertainty determined
   from the variation of -2ln L by +1 from the min. value.. where L
   is the profiled likelihood? --> better state that.
@@ -1460,9 +1566,27 @@ l.365-366: The claim of an excess of data events can be a bit misleading.
   also do a GOF-test, see https://twiki.cern.ch/twiki/bin/view/CMS/StatComGOF
   using the Baker-Cousins advocated likelihood chi2 test.
 
+**The uncertainty is calculated from the variation in the likelihood as for all CMS 
+papers. We think it is therefore unnecessary to state this explicitly.**
+
+**Goodness of fit tests were performed in the process of unblinding. 
+The observation was quite consistent in all tests implemented in the combine package.
+The results using the KS test are given below.
+
+ --- GoodnessOfFit ---
+Kolmogorov-Smirnov test statistic: 0.403416
+Done in 0.03 min (cpu), 0.03 min (real)
+mean   expected limit: r < 0.519199 +/- 0.00769576 @ 95%CL (100 toyMC)
+median expected limit: r < 0.522776 @ 95%CL (100 toyMC)
+   68% expected band : 0.439161 < r < 0.596618
+   95% expected band : 0.389792 < r < 0.694084
+
+For the expectation and 0.561381 for the observed data.**
+
 l.366: what you mean with stat. uncertainties, the ones of the data
   or also related to control regions or MC samples, etc.?
 
+**Clarified that we mean the data**
 >>>>>>> Section 9 <<<<<<<<<
 - it is not fully clear what is actually happening here.
   Is it correct that the aQGC parameters transform the EWK WZjj shape and norm?
@@ -1474,101 +1598,113 @@ l.366: what you mean with stat. uncertainties, the ones of the data
 
 - Previous limits could be shown for comparison.
 
+**These are the first 13 TeV limits and the first limits from CMS. The ATLAS 8 TeV limits
+are made in a different formulation and are not trivial comprable. We prefer to leave such
+comparisons to e.g. the LHC EW working group**
+
 l.390: There is not a single fit in the CLs criterion, but many. Would remove 'extracted from a maximum likelihood fit'
   and just leave 'extracted using the CLs criterion'. Additional comment: setting all parameters except for
   the coupling being probed to 0 is a valid assumption,
   but did you also try this leaving the unprobed parameters floating?
 
-**ADDRESSED: Fixed. This is considered for two parameters in the 2D limits. Studies have been made in the 
+**Fixed. This is considered for two parameters in the 2D limits. Studies have been made in the 
 past as well, but due to the similarities between different operators, the approach used here 
 is allows much easier interpretation that has been adopted by ATLAS and CMS for other analyses as well.**
 
 l.390: 'using the CLs criterion', please use this wording recommended by the Stat. Comm.
   Please take note that [59] = [54]
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Fig. 4: 'shown as a filled histogram.' Aren't all backgrounds
   shown as filled histos?
 
+**Rephrased**
+
 Fig. 4: Perhaps it would be better to show this in log-y scale
  so one can see better the effect of the new physics at large m_T values.
 
-**ADDRESSED: Added parameters with more pronounced excess at high mT**
+**Added parameters with more pronounced excess at high mT**
 
 Table 4: when you give 2-sided confidence intervals, I would prefer to call them confidence
 intervals and not limits. Are you sure these are 95% C.L. and not 90% C.L.
 intervals?
 
+**We are sure they are 95%.**
+
 Fig. 5: how are the contour lines exactly defined?
 Are you sure you take the 2d effect into account?
 (e.g. a Delta_chi2 = +1 means 68% C.L. for 1D but only ~40% for 2D)
+
+**The 2 dof are taken into account**
 
 >>>>>>>>> Section 10 <<<<<<<<<
 - Missing a figure with MT distribution containing signal distributions.
   Fig 4 does not count because the event selection for Higgs search is different.
 - Previous limits could be shown for comparison.
 
-**ADDRESSED: Added figure showing mT. Prefer not to clutter plot with previous limits.**
+**Added figure showing mT. Prefer not to clutter plot with previous limits.**
 
 l.410: 'CLs criterion' this is what the CMS Stat. Comm. suggests, method implies too much.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 >>>>>>>>> Section 11 <<<<<<<<<
 l.427: "extract the significance of EW WZ production" -> measure the signal strength of EW WZ production.
   Also quote the value actually measured here instead of only the significance
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 ## Type A
 
 l.5: 'to the Higgs' - should this still say 'Higgs boson'?
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 l.16: 'These interactions include WZ quartic couplings, as shown in Fig. 1 (a)'
   - this is repetitive as line 14 already state 'quartic WZ
   interactions are accessible through triple vector boson production or through vector boson scattering.
   Perhaps better to replace 'These interactions .. shown in Fig.1 (a)' with 'This is illustrated in Fig.1 (a)' or similar.
 
+**Fixed**
+
 l.33: additional Higgs or other scalar bosons
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 l.73: spurious quotation mark at the end
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 l.191: 'single lepton trigger'
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 l.209 'negligible effect'
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 l.234: in a EW -> in  an EW
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Figure 2: If using (a) and (b) subcaptions under the plots,
   then why not use these instead of (left) and (right) in the caption?
   Alternatively, drop the (a) and (b) subcaptions.
 
-**ADDRESSED: Replaced left and right with (a) and (b)**
+**Replaced left and right with (a) and (b)**
 
 l.356: 'Extraction of the significance' -> 'Extraction of the signal strength'
 
-**ADDRESSED: Changed**
+**Changed**
 
 l.383: 'formulation'
 
-**ADDRESSED: Decline to change.**
+**Decline to change.**
 
 Table 4: CL limits for one -> CL intervals for each
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Fig 4: caption: shouldn't this be standalone (ie not refer to the caption of another figure)?
  In general the captions of these figures are very long, is there any information that can be dropped?
@@ -1583,11 +1719,11 @@ Figure 5:
 
 Figure 6: The caption refers to (top) and (bottom) figures when the two plots are actualy side-by-side.
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 Figure 6: exclusion -> upper
 
-**ADDRESSED: Fixed**
+**Fixed**
 
 
 # Comments from Sijin Qian
