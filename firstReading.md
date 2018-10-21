@@ -402,23 +402,23 @@ PHYSICS COMMENTS:
 
 - L375: ...  charge conjugation and parity conserving ...
 
-**ADRESSED: Fixed**
+**Fixed**
 
 - Eq. (4): use p&#8407; T(W,Z) to denote vectors; define ET [note T in Roman].
 
-**ADRESSED: Fixed, but still a good idea to double check the definition...**
+**Fixed, but still a good idea to double check the definition...**
 
 - L383: technically speaking, the f&#57915;i parameters are not "couplings" but [Wilson] coefficients in the EFT operator expansion. Suggest to call them coefficients, and not couplings, throughout the paper.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 - LL398-399: while it's clear from the comparison of Table 4 and Fig. 5, that the contours correspond to the 2D likelihood function quantiles [i.e., the intercepts of the ellipse with the axes correspond to a larger interval than the 1D limits quoted in Tavle 4], it won't hurt to state this explicitly in the text: "The resulting 2D 95\% CL limits ..."
 
-**ADRESSED: Fixed**
+**Fixed**
 
 - Figure 5: remove the (a) and (b) labels below the figures.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 - Figure 6: sH [H in Roman] in the right pane y axis label. The right-hand-side plot could benefit from suppressing zero on the y axis and zooming on the interesting region in sH.
  
@@ -427,45 +427,45 @@ STYLE COMMENTS:
 
 Title: suggest "of electroweak WZ boson production" and "in proton-proton" collisions;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Introduction:
 
 L3: ATLAS and CMS Collaborations [1,2,2a] at the CERN LHC provides;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L5: to the Higgs field and;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L10: in proton-proton (pp) [note a hyphen, not an en-dash];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L11: ATLAS and CMS Collaborations and 7, 8, and 13 TeV [since ATLAS published earlier, it should be mentioned first];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L13: by the ATLAS Collaboration;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL14-15: or via vector boson;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L18: forward, high-momentum jets;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L21: to the WZjj channel proceeds;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Fig. 1 caption, LL1-2: The EW-induced [can't start a sentence with an acronym]; L3: (b) via kinematic variables.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 The CMS detector:
 
@@ -479,255 +479,255 @@ Data and Monte Carlo samples:
 
 L75: sample of pp collisions;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L79: leading order (LO);
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L83: using {\sc MadSpin}.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL98,99: &#956;R; &#956;F [R and F in Roman];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L99: mW [W in Roman, twice];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L100: mass, taken from Ref. [22].
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L107: The production of ZZ pairs via;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L110: at next-to-NLO (NNLO) order [you use the acronym NNLO later in the text];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L113: via {\sc MadSpin}.
 
 L123: as the corresponding hard scattering process.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Event reconstruction:
 
 L131: a particle-flow (PF) algorithm [you use the acronym later];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L135: PF objects in an event.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L149: associated with small;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L155: algorithm [42] with a distance parameter R=0.4;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L162: between jets from hard scattering and from pileup interactions.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L165: b quark jets;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L166+3: <0.3 (0.4) around electron (muon) direction [follow the logic of the paper: electrons described before muons];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L183: about 85 (77)\% at peT&#8776;10 GeV to about 95 (89)\% for;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L187: The data-to-simulation efficiency ratios;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Event selection:
 
 L202: the events are required to have pmissT>30 GeV.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL213-214: with the second-highest pT;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L217: between &#8722;2.5 and +2.5. [Minus sign, not a hyphen.]
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L220: the ``Higgs boson selection".
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Table 1 caption, LL2-3: The EW signal selection; LL3-4: for charged Higgs boson search, which uses the selection; L6: to Born-level leptons;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Table 2 body, header line: ES signal; Higgs boson; Tight fiducial; Loose fiducial;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Background estimation:
 
 L225: add a comma after "e.g." [US English];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL228-229: are estimated from control samples in data. [Since data-driven is jargon!]
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL238-239: with the {\sc vbfnlo} prediction [50].
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL239-240: is further discussed in Section 7.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL241-242: processes with nonprompt leptons are evaluated using control regions in data of events;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L245: ``tight-to-loose";
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L252: with the tight-to-loose [no quotation marks and no italics];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL257-258: is limited by the event count in control regions;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L260: in WZjj events.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L261: relaxing the jet pT requirement in WZ events;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Systematic uncertainties:
 
 LL267-268: The uncertainty in the events acceptance for the EW signal selection;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L268: and 5\% for EW WZ processes.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L270: The uncertainties in the QCD WZ background and EW WZ signal;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L274: The uncertainty in the QCD-induced;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL279-280: within the scale and PDF uncertainties;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L281: add a comm before "but";
 
-**ADRESSED: Declined**
+**Declined**
 
 L283: and QCD WZ processes interference is evaluated with particle-level simulated events;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L286: for both fixed and dynamic scales.
 
-**ADRESSED: Rephrased**
+**Rephrased**
 
 L290: uncertainty in the;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L291: Higher-order EW corrections to VBS processes;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L303: in both the EW signal and Higgs boson selections.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L304: in prompt backgrounds are;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L308: &#956;R/&#956;F&#8805;2. [F, R in Roman.]
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L309: The PDF uncertainties;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Table 2 body, header line: &#963;WZjj [jj in Roman]; EW WZ signal significance; first columns: Nonprompt event count; b tagging; Integrated luminosity; second column: please typeset all the plus and minus signs in math mode; either replace the dash with N/A, or explain the dash in the caption.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L315: the b quark content;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L316: in the b tagging efficiency between data and simulation.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Fiducial Cross Section ...:
 
 LL322-323: Fiducial cross section measurement and search for EW WZ production;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L328: EW- and QCD-induced;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L330: &#956;WZjj [jj in Roman];
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L338: The interference term contribution;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L343: from the scale and PDF uncertainties;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L344: The scale uncertainty in the;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Fig. 2 caption, L8: uncertainties in the;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL350,351: the EW- and QCD-induced;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Fig. 3 caption, L1: The one-dimensional representation of the 2D distribution of the dijet mass; L2: signal extraction. The x axis shows;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L365+2: local p value;
 
@@ -753,7 +753,7 @@ LL371,378: aQGCs;
 
 L378: mixture of gauge and Higgs field interactions;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L383: coupling for the operator;
 
@@ -761,7 +761,7 @@ L383: coupling for the operator;
 
 L387: coupling value, a parabolic;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL390-391: put commas around "except for the coupling being probed";
 
@@ -769,66 +769,73 @@ LL390-391: put commas around "except for the coupling being probed";
 
 Fig. 4 caption, L2: on the anomalous coupling parameters.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Fig. 5 caption, LL2-3: expected 68, 95, and 99\% CL limits (dashed contours) on; L3: confidence confidence levels.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Limits on Charged Higgs Production:
 
 L401: Limits on charged Higgs boson production;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L402: charged Higgs bosons (H±) with;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 LL408-409: Higgs boson selection;
 
-**ADRESSED: Fixed**
+**Fixed**
 
 L417: to be unity.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Summary:
 
 L424: at the LHC in 2016.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Fig. 6 caption, L2: replace H+ with H± [also note H in Roman]; replace BR with &#57902;, as on L416; replace (top) with (left); L3: Georgi--Machacek [en-dash, not a hyphen] model (right)
 .
-**ADRESSED: Fixed**
+**Fixed**
 
 L433: from either the WZ channel or from other channels.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 References:
 
 Ref. [5]: fix "(&#8730;s) in the title.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Ref. [22]: consider replacing with the just announced 2018 edition.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Ref. [34]: long published in Eur. Phys. J. C {\bf 76} (2016) 196; please add the journal and doi references.
 
-**ADRESSED: Fixed**
+**Fixed**
 
 Refs. [42,44]: these are identical references; please replace Ref. [44] with [42] in the paper on L161.
 
+**Fixed**
+
 Ref. [46]: replace with the 2018 b tagging paper.
+
+**Fixed**
 
 Ref. [56]: typeset the Erratum the same way you do the main references: [Erratum: {\it Eur. Phys. J. C\/} {\bf 73} (2013) 2501].
 
+**Fixed**
+
 Refs. [54,55,59,60]: these are identical pairs of references; please replace Refs. [59.60] on L390 with [54,55].
 
+**Fixed**
 
 # Comments from Ohio State University IR
 
@@ -841,7 +848,11 @@ L13: aQCG is defined here and a reference is given for a search result, however 
 
 L24-25, Figure 1: The distinguishing kinematic variables are described in lines 26-31, but readers (like myself) may ask "which variables?". Perhaps a rewording ("such as…") is warranted to avoid this confusion.
 
+**Added more details**
+
 L28-29: The reader needs to read until roughly line 352 to have it explained *which* kinematic variables distinguish between QCD and EW productions; not all readers may understand this inherently and it would be useful to briefly explain which variables are involved and why they enhance EW over QCD.
+
+**Added more details**
 
 L74, 94, 187, 310, 316: You should write “Monte Carlo simulation” or “MC simulation”, see the style guide.
 
@@ -851,31 +862,57 @@ L83: MadSpin needs a reference. Please check if this one is the latest: “P. Ar
 
 L98: You haven’t yet defined “\pt” as the transverse momentum.
 
+**Fixed**
+
 L137-139: "The physics objects are…" — It seems that this is taken from the PubComm recommendations (https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/PubDetector) but the twiki has been updated at some point, and this sentence in the paper should be made to match.
+
+**Fixed**
 
 L140, 146: \eta^{e} and \eta^{\mu} don't appear to be defined anywhere, and in this context it's not clear if these differ from the standard pseudo-rapidity.
 
+**Removed superscripts**
+
 L155: “R” should be defined as the distance parameter.
+
+**Fixed**
 
 L157: You need to define \Delta R here, rather than in L166+, since this is the first place you use it.
 
+**Fixed**
+
 L204: "there should be no" — more deterministic language should be used as you required this.
+
+**Fixed**
 
 L214-6: Why are the high dijet mass and pseudorapidity separation typical of a VBS process? It would be good to briefly describe the unique VBS signature.
 
+**Clarified**
+
 L234-9: We didn't follow how the data in the EW control region is used to constrain the background estimate that is taken from simulation. Can you clarify?
+
+**Improved desciption**
 
 L265: "The major uncertainties" — 'major' is a subjective word and very inflammatory compared to 5-25%. "most significant" or "largest" would be more appropriate.
 
+**Fixed**
+
 L276: What is the FxFx merged sample? You only mention it here.
+
+**Improved description**
 
 L291-294: While it's understandable that an un-calculated correction hasn't been (can't be, really) applied, this paragraph does stand out in that "tens of percent" is of the order of most of your systematics to start with. If several "tens", then this is a very significant uncertainty on the signal yield and could potentially enhance the results quite a bit. Has there been any study on the effect of this? If the effect is considerable on the signal strength determination, it may be worth an additional sentence explaining the impact of its inclusion.
 
 Table 2 caption: same comment on "major". If this is to be understood as "non-negligible" there must be better wordings for this, because ~10% is not what I would consider a "major uncertainty".
 
+**Rephrased**
+
 Table 2: Should be “Integrated luminosity”.
 
+**Fixed**
+
 Figure 3: most of the error bars in the ratio are off-scale, and in some bins the central value is nearly so. The range should make the results clear, as this is a very important plot.
+
+**Increased ratio range**
 
 ## Type A
 
@@ -885,11 +922,15 @@ L33: Parallel construction — "or suggest" —> "or"; otherwise "or it could su
 
 L166+: Line numbers are missing for this paragraph.
 
+**I have no idea why**
+
 L339: Should be “defined in Table 1 following Ref. [19]”.
 
 **Fixed**
 
 L365+: Line numbers missing.
+
+**Still no idea...**
 
 L426: “SM” needs to be redefined in the Summary section.
 
@@ -903,7 +944,7 @@ L426: “SM” needs to be redefined in the Summary section.
  The preprint is generally well-written and so do have minor things as below.  Please refer.
 
 
-** Type A comments
+## Type A comments
 
 L17 : Vector boson scattering processes form a distinct experimental signature
 
@@ -915,7 +956,7 @@ L34-36 : please rearrange the sentence according to the figures, i.e.,
 
 in terms of...., shown in Fig. 1 (c) and (d), -> in the generalized framework of dimension-eight effective field theory operator and in terms of charged Higgs boson, shown in Fig. 1 (c) and (d), respectively,
 
- 
+**Fixed** 
 
 L48 : define pT here because of it appear for the first time, e.g.,
 
@@ -965,7 +1006,7 @@ L330 ~ L332, L363 ~ L366 and other places : Throughout this paper, "signal stren
 
 L351 : "The ratio of EW to QCD-induced production of WZjj grows .... in Fig.2 ... " There is no this ratio histogram in Fig.2. This sentence and Fig.2 doesn't match.
 
- 
+**Rephrased** 
 
 L372 : remove "(EFT)“
 
