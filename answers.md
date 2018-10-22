@@ -1496,7 +1496,7 @@ order the yields of the sets per bin and take the prediction of the set correspo
 
 Table 2: --> 'freezing the set of associated nusiance parameters'
 
-**Fixed*
+**Fixed**
 
 Table 2: how is the relative systematic uncertainty calculated? is it
   (nominal^2 - (uncert with set of NP's frozen)^2)/(nominal^2); sqrt(nominal^2-(uncert with set of NP's frozen^2))/nominal;
@@ -1874,11 +1874,11 @@ Pages 1-6
 
 (3) L2-3, L22, L27, L44, L92, L110, L131 and L164, as well as L43 and L144. The "H", "QCD", "eta", "pT", "NLO", "NNLO", "PF" and "CSVv2" should be explained on L2-3, L22, L27, L44, L93, L110, L131 and L164, respectively; instead of L43 and L144 for "eta" and "pT", i.e.
 
-**Fixed*
+**Fixed**
 
 (a) L2-3: "(SM) Higgs boson by the ATLAS and CMS collaborations [1, 2] ..." --> "(SM) Higgs boson (H) by the ATLAS and CMS collaborations [1, 2] ..."
 
-**Fixed*
+**Fixed**
 
 (b) L22: "via QCD radiation of partons from ..." --> "via quantum chromodynamics (QCD) radiation of partons from ..."
 
@@ -1886,53 +1886,53 @@ Pages 1-6
 
 (c) L27: "at high pseudorapidity with large dijet system invariant mass." --> "at high pseudorapidity (eta) with large dijet system invariant mass."
 
-**Fixed*
+**Fixed**
 
 Then, L43 can be shortened correspondingly from
 
 "extend the pseudorapidity eta coverage provided by the barrel and" --> "extend the eta coverage provided by the barrel and"
 
-**Fixed*
+**Fixed**
 
 (d) L48: "with 1 < pT < 10 GeV and ..." --> "with transverse momentum 1 < pT < 10 GeV and ..."
 
-**Fixed*
+**Fixed**
 
 Then, L144 can be shortened correspondingly from
 
 "transverse momentum, pT, and ..." --> "pT and ..."
 
-**Fixed*
+**Fixed**
 
 (e) L92: "with an NLO sample from ..." --> "with a next-to-LO (NLO) sample from ..."
 
-**Fixed*
+**Fixed**
 
 (f) L110: "calculated at next-to-next-to-leading order for ..." --> "calculated at next-to-NLO (NNLO) for ..."
 
-**Fixed*
+**Fixed**
 
 (g) L131: "using a particle-flow algorithm [39] that reconstructs and identifies" --> "using a particle-flow (PF) algorithm [39] that reconstructs and identifies"
 
-**Fixed*
+**Fixed**
 
 (h) L164: (however, since the "CSVv2" has not been used afterward in whole paper, it can be simply spelled out; and as "b-tagging" plays a role of adjective, thus adding a hyphen is allowed)
 
 "the CSVv2 b tagging algorithm [45] ..." --> "the Combined-Secondary-Vertex-version2 b-tagging algorithm [45]
 
-**Fixed*
+**Fixed**
 
 (4) L6 and Fig.1's caption (the 1st line). Since the "BSM" has been used for only one time in the caption of Fig.1, it may not be necessary to be introduced on L6, i.e.
 
 (a) L6: "Physics beyond the standard model (BSM) in the electroweak (EW)" --> "Physics beyond the SM in the electroweak (EW)"
 
-**Fixed*
+**Fixed**
 
 (b) Fig.1's caption, the 1st line can be correspondingly changed from
 
 "in the SM and BSM." --> "in the SM and beyond the SM." or "in the SM and beyond it." or "in the SM and beyond."
 
-**Fixed*
+**Fixed**
 
 (5) L11 and L36, the "collaboration" and "Fig." should be plural, i.e.
 
@@ -1954,13 +1954,13 @@ This paper seems missing this paragraph yet, please consider whether it would be
 
 "the pseudorapidity range |eta| < ..." --> "the range |eta| < ..."
 
-**Fixed*
+**Fixed**
 
 (b) L61-62: (also as the numerical values of the angle phi have been explicitly shown here, etc. and an angle can be measured in either the radians or degrees; therefore, the unit of phi should be specified)
 
 "have widths of 0.087 in pseudorapidity and 0.087 in azimuth (phi)." --> "have widths of 0.087 in eta and 0.087 radians in azimuth (phi)."
 
-**Fixed*
+**Fixed**
 
 (c) L67: (as the "CAL"s are already implying the "calorimeter", also I'm not sure whether the "and" should be changed to "or", then "are" --> "is")
 
@@ -1972,13 +1972,13 @@ This paper seems missing this paragraph yet, please consider whether it would be
 
 "transverse momentum" --> "pT"
 
-**Fixed*
+**Fixed**
 
 (e) L135: (due to the item (3g) above)
 
 "particle-flow objects in an event." --> "PF objects in an event."
 
-**Fixed*
+**Fixed**
 
 (f) two lines below L166: (two places)
 
@@ -1986,7 +1986,7 @@ This paper seems missing this paragraph yet, please consider whether it would be
 
 "is defined relative to their pTl by summing over the pT of charged hadrons and neutral particles within"
 
-**Fixed*
+**Fixed**
 
 (g) L167-169: (two places)
 
@@ -1996,25 +1996,25 @@ This paper seems missing this paragraph yet, please consider whether it would be
 
 "is the scalar pT sum of charged hadrons originating from the primary vertex; the Sigma(pTneutral) and Sigma(pTgamma) are for neutral hadrons and photons, respectively."
 
-**Fixed*
+**Fixed**
 
 (h) L219: (as the "pTjet" has been introduced on L173)
 
 "a lower requirement on the jet transverse momenta, pT > 30 GeV, is used ..." --> "a lower requirement on the pTjet, > 30 GeV, is used ..."
 
-**Fixed*
+**Fixed**
 
 (8) L151, it may sound better if a comma is added, i.e.
 
 "For each lepton track the distance of closest approach to ..." --> "For each lepton track, the distance of closest approach to ..."
 
-**Fixed*
+**Fixed**
 
 (9) L152 and L178, two values in a pair may should have the same number of digits after the decimal point, i.e.
 
 (a) L152: "to be less than 0.05 (0.1) cm for electrons in the barrel (endcap) region" --> "to be less than 0.05 (0.10) cm for electrons in the barrel (endcap) region
 
-**Fixed*
+**Fixed**
 
 (b) L178: "if Ie < 0.0361 (0.094) for the barrel (endcap) region," --> "if Ie < 0.0361 (0.0940) for the barrel (endcap) region," or "if Ie < 0.036 (0.094) for the barrel (endcap) region,
 
