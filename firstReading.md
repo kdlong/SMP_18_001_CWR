@@ -35,22 +35,17 @@ A few general comments:
    reference, which I do not see right now (and which is much more important to the
    stakeholders tan anything else)
 
-The fact that RIVET is used is relevant in the interpretation of the results in the sense
+**The fact that RIVET is used is relevant in the interpretation of the results in the sense
 that it defines a common algorithm, with choices made in how dressed leptons, jets etc
-are defined. We intend only to emphasize this, though we agree that the wording was combuersome.
-It has been reformulated, and the reference has been moved into the main body of the text.
-
-**TODO: Reword text to make Rivet mentioning more natural.**
-**TODO: Add RIVET Citation in main body of text.**
+are defined. We intend only to emphasize this, though we agree that the wording was cumbersome.
+It has been reformulated, and the reference has been moved into the main body of the text.**
 
 - what did we do with taus in this analysis? If they the electrons and muons from the
    decaying taus are within the acceptance, are these considered signal or background?
    Be specific from the start please.
 
-They are not explicitly vetoed, though they are not included in the fiducial cross 
-section. Added clarification in text.
-
-**TODO: Clarify treatment of taus**
+**They are not explicitly vetoed, though they are not included in the fiducial cross 
+section. Added clarification in text.**
 
 Details
 - line 4 Sloppy: Higgs mechanism -&gt; BEH or Brout-Englert-Higgs mechanism
@@ -60,8 +55,8 @@ Details
 - line 84: "...initial state bs not included": is that an issue for the analysis?
    How does it affective analysis, if at all?
 
-That they are not included as signal is important, as this essentially defines the tZq 
-process.
+**That they are not included as signal is important, as this essentially defines the tZq 
+process.**
 
 - line 91: Do we depend on the merging scale? We should not. Was this checked and or
     a systematics for that included? I did not see that later.
@@ -99,7 +94,7 @@ point, so we present the comparison itself without an excess of technical detail
 - line 103 "...for identical configurations" What do you mean here? Event topologies?
     Please say exactly what is meant.
 
-**TODO: Clarify that we mean identical configuration of input parameters.**
+**Clarify that we mean identical configuration of input parameters.**
 
 - line 104: I recommend to start this paragraph with a list the main backgrounds
 
@@ -126,14 +121,13 @@ REFORMAT
     leptons (3 significant digits). This begs the question on how these cuts
     have been tuned or optimised... Information to be added.
 
-**TODO: Change, I guess**
-REFORMAT
+**Fixed**
 
 - line 184: So I understand here that we did not exclude the transition region
    between barrel and endcap in the ECAL, correct? Do we control the data/MC difference of the
    efficiency there well enough?
 
-**Yep that's how the EGamma central ideas are done**
+**Yes, we use the central Egamma IDs, and this is their procedure**
 
 - line 209: affect -&gt; effect
 
@@ -161,7 +155,7 @@ REFORMAT
    Just to make sure we do not something illegal that we could get criticised for
    easily..
 
-Comment: See previous response above. Rewrote in a hopefully more clear fashion.
+**Comment: See previous response above. Have clarified explanation**
 
 - line 279: "generally seen to be within..." Is that an observation you made with
    studies in this analysis? Then I would rather say "generally found to be within..."   
@@ -175,7 +169,7 @@ Comment: See previous response above. Rewrote in a hopefully more clear fashion.
 
 - line 286: "for fixed and dynamic scale". Say here what scale you mean.
 
-**TODO: Ok.**
+**Rephrased**
 
 - line 294: This statement may well be right but as a reader (or referee) I would
     wonder on what this assessment is based, and if these contributions would not
@@ -187,21 +181,24 @@ Comment: See previous response above. Rewrote in a hopefully more clear fashion.
 - line 330: what is the value the modifier that comes out of the fit?
      We should give that information as well..
 
-It can be easily gleaned from the comparison value given. Do we really want to include this?
+**Prefer not to include. It can be easily gleaned from the comparison value given, and the cross section is
+the most meaningful result**
 
 - line 338 : interference is negligible. How small is it (eg in % contribution)?
 
-Less than 1% of the total cross section.
-**TODO: Add this, I guess?**
+**Clarified that it is less than 1% of the total cross section.**
 
 - line 366-369: what is the conclusion on this result? Consistent with SM expectation..?
      We should at least say something
 
+**Added**
+
 - line 400 say here or somewhere nearby that we do not observe a deviation...
+
+**Added**
 
 - line 407: What is meant precisely here? Contribution to what? too compact as is now...
 
-Hmm, ok, I need to read about this anyway.
 **TODO: Research this model, and make this a little more clear**
 
 - line 433: We could give a few more details/numbers here on previous results
@@ -220,11 +217,13 @@ The following comments are suggestions to make the paper more readable.
 
 Figure 6 caption:  The arraignment of the figures are side by side so in referring to them in the caption, the language shodulbe changed from top -&gt; left and bottom -&gt; right.
 
+**Fixed**
+
 B type comments
 
 L70 the event rate -&gt; first level event rate
 
-**TODO: Ok, change**
+**Declined, this is a standard CMS description**
 
 L143-145  The description of the treatment of bremsstrahlung along the electron tract is too terse.  Either a reference to the treatment or more description of how the brem is treated would help.
 
@@ -242,27 +241,29 @@ L245 and 251  The tight to loose “transfer factors” that transfer background
 
 (even though the authors give a reference to the technique, the process is so minimally described it forces the reader to go to the reference).
 
-**TODO: Fair. Add a little bit I suppose**
+**Expanded description**
 
 L257   Choose a different adjective than “fakeable”.  This is an unclear descriptor.
 
-**TODO: Hmm, ok**
+**Rephrased**
 
 L269  2D discriminant is referenced here although it is not defined until line 354.
 
-**TODO: Good point**
+**Rephrased**
 
 L278  The MLN merging is mentioned earlier with a reference but a FxFx merged sample is mentioned with no discussion of what this sample is.
 
-**TODO: Ok**
+**Rephrased**
 
 L284  A short description of what is meant by the RIVET framework is needed event if a reference is given.
 
-**TODO: Ok**
+**Rephrased**
 
 Figures 2 and 3  The electroweak components are not at all evident in the two figures partially because of the choice of indicator symbol.  A
 Different choice would make what this component is clearer.  As is
 It is obscured by the cross hatching of the statistical + systematic errors.
+
+**Improved hatching to make EWWZ process more clear**
 
 # Comments from Greg Landsberg
 ---------------------------------------------------------------------
@@ -275,13 +276,49 @@ PHYSICS COMMENTS:
 
 - General comment: given that ATLAS is about to submit their WZjj observation in the very same channel and the same integrated luminosity, I wonder why the sensitivity of our analysis is so much lower than that of ATLAS. I'm not talking here about the giant fluctuation they seem to observe (5.6 s.d. observed with 3.3 s.d. expected, ATLAS-CONF-2018-033), but the comparison of 3.3 s.d. and 2.7 s.d. of the two analyses, which corresponds to about (3.3/2.7)^2, or 50% more effective integrated luminosity ATLAS gains over us. Clearly the fact that ATLAS uses BDTs, while this analysis only considers rectangular cutoff must contribute a lot, but also ATLAS is using the mT variable, while our analysis relies on pmissT to identify the leptonically decaying W, which must be suboptimal. Why are we not using the MVA approach for this crucial LHC measurement? I'm afraid that without analysis improvements, the lifetime of this paper will be the delta t between our and ATLAS submission, i.e. a few weeks at most. As soon as ATLAS paper is submitted, I doubt we will get many citation out of a similar analysis but with appreciably worse sensitivity. If ATLAS manages to submit before us, the paper will have even less of an impact.
 
+**Comparisons of this analysis and the new ATLAS analysis are already ongoing,
+and we believe that the characterization of this analysis as inferior to the
+ATLAS one is incorrect for several reasons, examples of which are listed below.
+In addition, as this analysis represents a standard model measurement and not
+just a competition for "discovery," the differences in the two analyses are 
+already leading to wide discussions and comparisons of the results and techniques. 
+While some will certainly take the observed significance as a metric to consider
+the ATLAS result "superior," many theoretical colleagues have already expressed
+appreciation for our more simulation-agnostic approach to the EW WZ search
+and our presentation of fiducial measurements. Especially considering 
+our additional new physics interpretations wrt the ATLAS result, we find
+the prediction of a dearth of citations for this result unlikely.**
+
+**1) The ATLAS measurement makes extensive use of multivariate techniques. As seen
+in other results, e.g. H-->bb, where cut-based and MVA-driven approaches 
+are presented together, an ~20% improvement from such techniques is not unbelievable.
+A BDT-driven analysis was investigated for our analysis, but was not pursued
+due to large variations seen in MC predictions for the EW WZ signal model. Similar
+issues have been discussed in the ATLAS SS WW VBS measurement, but we understand
+that only one MC generator was ever considered for the ATLAS WZ VBS measurement.**
+
+**2) Our ATLAS colleagues acknowledge a large difference between their a-priori
+and a-postiori expected significances, from ~2.1 to 3.3, driven by the
+large correction factor obtained for the QCD WZ process using a control region.
+Given the large dependence in the MC modeling, enhanced by their MVA techniques,
+it is not clear that the expected significances are directly comparable without
+further investigations of the MC predictions used in both analyses.**
+
+**3) The performance of the CMS forward calorimeters wrt ATLAS, in this case 
+accentuated by the ECAL prefiring issue, has traditionally been lower than ATLAS.
+Ignoring concerns about MC simulation, the detector performance combined
+with the MVA-driven approach, could account for the differences. We stress again
+that the decision to sacrifice sensitivity for less model dependence is a 
+conscience one.**
+
+
 - General comment: nowhere in the paper I see an investigation of the ECAL prefiring effect on your trigger efficiency. Given the forward energetic jets used in the analysis, it may be significant (10\% or so), which may be one of the causes of a somewhat lower cross section you measure. Has this been looked for, and if so, why it is not addressed in the paper? If the effect hasn't been considered, it must be included before the analysis can be published.
 
-**TODO: Yes, we have to do this and then decide if we want to result to change. The expectation is of course that the expect sig. will decrease, but the observed will raise slightly.**
+**This has been studied using the techniques of the VBF Hinv analysis, and the results have been updated accordingly.**
 
 - General comment: most of the papers we publish with the fiducial cross section measurements provide the unfolded measurements. Why is the unfolding not performed in this analysis? Granted, the effect of unfolding on the lepton is fairly small; on the other hand, your fiducial regions are rather complicated and include pmissT, pjT, and mj] selections, all of which are considerably affected by the JES/JER, particularly given that the jets are in the forward region where the corresponding uncertainty are relatively large. I believe the fiducial cross section measurements should be done with unfolded data. Note that the ATLAS result uses unfolded data, naturally.
 
-**RESPONSE: The fiducial cross sections reported are generator-level quantities, that is, they include acceptances and efficiencies. In that sense they ARE unfolded quantities. We chose not to produce unfolded distributions because the statistical power of the measurement makes splitting the distributions into bins impractical.**
+**The fiducial cross sections reported are generator-level quantities, that is, they include acceptances and efficiencies. In that sense they ARE unfolded quantities. We chose not to produce unfolded distributions because the statistical power of the measurement makes splitting the distributions into bins impractical.**
 
 - L3: add the second standard reference ["long" paper] to the CMS Higgs boson discovery.
 
@@ -293,7 +330,7 @@ PHYSICS COMMENTS:
 
 - L16: there is only one particular quartic coupling you really probe here, WWZZ; please say so explicitly.
 
-**TODO: Decide if we want to do this**
+**Added**
 
 - Figure 1: in the diagrams (a), (c), (d), you should explicitly put W± and Z along the two bosons emitted by the quarks. If you put W± on top, the lower outgoing quark should be the same as the corresponding incoming quark, but it must be changed to an antiquark q¯ in order to conserve electric charge. Since the two incoming quarks do not have to be of the same type, suggest labeling the upper two quarks as q' and q", while keeping the two at the bottom as q. The diagram (b) as shown, violates electric charge conservation; you should replace q¯ with q¯&#8242; and also mark the internal quark lines as q, q', q¯&#8242; (top to bottom).
 
@@ -301,13 +338,13 @@ PHYSICS COMMENTS:
 
 - LL26-31: this paragraph really breaks the flow of the text; suggest moving it after the one ending on L37.
 
-**TODO: This is ok with me**
+**Rephrased**
 
 - LL34-36: We study ... in terms of the generalized framework of dimension-eight effective field theory (EFT) operators and charged Higgs bosons, as shown in Figs. 1 (c) and (d), and place limits on the corresponding couplings and production cross sections, respectively.
 
 - L85: as the name suggests; VBFNLO is an NLO, not LO generator: "... from the generator {\sc vbfnlo} v?.? [16] at next-to-leading order (NLO) ... [also add the VBFNLO version number].
 
-**RESPONSE: As with most NLO programs, VBFNLO also provides LO predictions. In fact, it is in general not an event generator, and only has this capability at LO. As we made comparisons using generated events, we generated them at LO. The text is therefore correct. The version number has been added.** 
+**As with most NLO programs, VBFNLO also provides LO predictions. In fact, it is in general not an event generator, and only has this capability at LO. As we made comparisons using generated events, we generated them at LO. The text is therefore correct. The version number has been added.** 
 
 - L86: give the order of simulations with Sherpa: 18], at LO, and with fixed-order [note a hyphen!] calculations ... [Finally, give MoCaNLO+Recola version number here.]
 
@@ -315,11 +352,17 @@ PHYSICS COMMENTS:
 
 - LL89-90: the description is very confusing. By "up to three outgoing partons at Born level" do you mean "up to one additional parton" [as W and Z are two outgoing partons], or do you really mean up to three additional jets emitted in addition to two gluon jets? You really should be talking about "additional partons" compared to the Born-level diagram in Fig. 1 (b) to avoid confusion: "... simulated at LO with up to ? additional partons included in the matrix element calculations with ...".
 
+**Rephrased to clarified that that the partons are wrt to the inclusive pp --> WZ process, e.g., three additional partons is WZ+3j**
 - L93: similarly, here you should say: "... with up to one additional parton in the matrix element calculations, and an inclusive ...".
+
+**Rephrased**
 
 - L94: give a version number of Powheg (v1.0 ?) here and the corresponding references; also give a reference to the MLM merging procedure.
 
 - L101: please explain what is meant by "events drawn from the interference term only". Most of the calculations become non-renormalizabel if a particular term in the amplitude is taken out, which means that numerically they give garbage. Only full set of amplitudes guarantees a numerically stable and finite answer. The only way to assess the effect of interference is really to take the full calculation with the interference and subtract from it the two processes generated separately. Is this what's being done? Please, expand on this point in the paper.
+
+**Interference in this context refers to the $\alpha^3\alpha_{s}$ contribution to the process,
+which arises through the mix of diagrams not shown here. This has been clarified.**
 
 - LL110,111: first of all drop "scaling" in both places, as "factor" implies "scaling"; second, per CMS Style, the correct usage is "K factor", so the two lines in question should say, respectively, "(K factor of 1.1)" and "(K factor of 1.7)".
 
@@ -355,12 +398,11 @@ PHYSICS COMMENTS:
 
 - Table 1: the variables used in the first column often have not been introduced or have been called differently. In particular, suggest using p&#8467;&#8242;1T, p&#8467;&#8242;2T, p&#8467;T for the first three entries, |&#951;&#956;| and |&#951;e| [note Roman "e"] for the following two; |m&#8467;&#8242;&#8467;&#8242;&#8722;mZ| for the next one; m&#8467;&#8467; should read m&#8467;&#8242;&#8467;&#8242;; |&#951;(j)| and pT(j) should be |&#951;j and pjT; finally, use nb&#8722;jet [hyphen, not an en-dash]. Furthermore, I have a question on the fiducial requirements: for some of the variables, namely p&#8467;&#8242;1T, &#951;&#956;, they are looser than the EW signal selection used to make the measurement. How can you define the fiducial volume that goes beyond the range of your selection? That defeats the purpose of fiducial cross section, which doesn't rely on simulation to extrapolate beyond the measurement phase space! I urge you to redefine the fiducial selections by replacing 2.5 with 2.4 on muon pseudorapiditiy and by tightening the loose fiducial selection on the first lepton pT from the Z boson decay to 25 GeV.
 
-**Fixed I hope**
-**RESPONSE: In general the goal of the fiducial region is to reduce extrapolation. But a simpler definition is also preferred, and makes use of many theoretical tools (or comparisons with ATLAS much easier). Given that lepton pTs and rapidities are relatively insensitive to theoretical uncertainties, and because the uncertainty of the measurement is much higher than the extrapolation uncertainty this introduces, we prefer to keep the definition simplistic. 
+**In general the goal of the fiducial region is to reduce extrapolation. But a simpler definition is also preferred, and makes use of many theoretical tools (or comparisons with ATLAS much easier). Given that lepton pTs and rapidities are relatively insensitive to theoretical uncertainties, and because the uncertainty of the measurement is much higher than the extrapolation uncertainty this introduces, we prefer to keep the definition simplistic. 
 
 - LL268-269: the sentence is completely unintelligible. What is "2D discriminant", which has never been mentioned before? What is the range 5--25\%, given that in the very previous line you claim that this contribution is 9\%? What "It" refers to? Are you trying to say that while on average the QCD WZ process acceptance is 9\%, it varies between 5--25\% as a function of some variable? Then say so in plain English and define this variable properly! This sentence needs to be either removed or completely rewritten.
 
-**TODO: Ok, sure, he has a point**
+**Rephrased**
 
 - L271-272: ... uncertainties in the respective predictions and by comparing them with the predictions from alternative matrix element and parton shower generators.
 
@@ -378,9 +420,15 @@ PHYSICS COMMENTS:
 
 - L288: ... uncertainty in the signal cross section prediction when performing the EW WZ signal strength measurement. [I believe here you meant the EW WZ signal strength measurement, not the significance measurement!]
 
+**Fixed**
+
 - LL298-299: why would the uncertainties in the misidentification probability be uncorrelated between the channels. All channels with electrons should be affected by the electron misidentification probability uncertainty in a correlated way! Please, explain your assumption.
 
+**The primary source of uncertainty is not in measuring the loose-to-tight transfer factors, but in their applicability, particularly due to the flavor content of the events where they are obtained vs. applied. Because the flavor content is different by channel, the uncertainty is uncorrelated. In any case, the difference between correlating and decorrelating the uncertainty would be negligible.**
+
 - Table 2: just to make sure, is the impact listed in the last column is really in the signal significance (i.e., the probability for the background only to fluctuate to or above the measured number of events) as the caption claims, or in the signal strength (&#956;)? These are not the same quantities.
+
+**We have improved the description, and have chosen to present the impact on the expected significance in order to show the impact of the uncertainties in making a statistically significant measurement.**
 
 - L325: the sentence sounds funny: why would one measure the cross section by fitting the expected event yield? This is a closure test, not a measurement. Please, drop "and expected".
 
@@ -394,7 +442,7 @@ PHYSICS COMMENTS:
 
 - Figure 2: use "Dijet mass [GeV]" as the x axis caption on the left plot, to match the text; also remove the (a) and (b) labels below the figure.
 
-**Will be fixed in next iteration of plots**
+**Fixed**
 
 - LL363, 365+4, and Eq. (3): use the same terminology, &#956;WZjj, here, as introduced on L330.
 
@@ -406,7 +454,7 @@ PHYSICS COMMENTS:
 
 - Eq. (4): use p&#8407; T(W,Z) to denote vectors; define ET [note T in Roman].
 
-**Fixed, but still a good idea to double check the definition...**
+**Fixed**
 
 - L383: technically speaking, the f&#57915;i parameters are not "couplings" but [Wilson] coefficients in the EFT operator expansion. Suggest to call them coefficients, and not couplings, throughout the paper.
 
@@ -471,9 +519,11 @@ The CMS detector:
 
 L56: resistive-plate chambers;
 
-**DECLINED: This is inconsistent with most CMS papers**
+**Declined. This is inconsistent with most CMS papers**
 
 L73: eliminate a stray quotation mark at the end of the line;
+
+**Fixed**
 
 Data and Monte Carlo samples:
 
@@ -547,7 +597,7 @@ L166+3: <0.3 (0.4) around electron (muon) direction [follow the logic of the pap
 
 L183: about 85 (77)\% at peT&#8776;10 GeV to about 95 (89)\% for;
 
-**Fixed**
+**Rephrased**
 
 L187: The data-to-simulation efficiency ratios;
 
@@ -739,7 +789,7 @@ L366: uncertainty in the &#956;WZjj measurement;
 
 Table 3 caption, L1: Post-fit event yields;
 
-**Postfit is the term I see in the literature. Can you provide a reference to a recommendation?**
+**Postfit, post-fit, and post fit all appear in CMS papers. Can you provide a reference to a recommendation?**
 
 Table 3 body, header line: Total yield; first column: Pred. background; EW WZ signal;
 
@@ -749,7 +799,7 @@ Limits on anomalous quartic gauge couplings:
 
 LL371,378: aQGCs;
 
-**TODO: Is this really the recommendation?**
+**Fixed**
 
 L378: mixture of gauge and Higgs field interactions;
 
@@ -765,7 +815,7 @@ L387: coupling value, a parabolic;
 
 LL390-391: put commas around "except for the coupling being probed";
 
-**This seems an optional style comment to me**
+**Declined**
 
 Fig. 4 caption, L2: on the anomalous coupling parameters.
 
@@ -845,6 +895,8 @@ This paper presents the first measurement of WZ electroweak vector boson scatter
 ## Type B
 
 L13: aQCG is defined here and a reference is given for a search result, however there is no clear reference to a description on what aQCG actually is. Is this description contained in reference [6], or is there another reference needed here?
+
+**Added references**
 
 L24-25, Figure 1: The distinguishing kinematic variables are described in lines 26-31, but readers (like myself) may ask "which variables?". Perhaps a rewording ("such as…") is warranted to avoid this confusion.
 
